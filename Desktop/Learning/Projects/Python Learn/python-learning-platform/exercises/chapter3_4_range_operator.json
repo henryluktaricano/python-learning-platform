@@ -1,0 +1,107 @@
+[
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Range",
+    "exercise_number": 1,
+    "difficulty": "beginner",
+    "exercise": "Write a for loop that uses range() to print numbers from 1 to 10."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Range",
+    "exercise_number": 2,
+    "difficulty": "beginner",
+    "exercise": "Create a program that uses range() to print all even numbers between 2 and 20."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Range",
+    "exercise_number": 3,
+    "difficulty": "beginner",
+    "exercise": "Use range() to print numbers from 10 down to 1 in descending order."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Range",
+    "exercise_number": 4,
+    "difficulty": "beginner",
+    "exercise": "Write a for loop using range() to calculate the sum of numbers from 1 to 100."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Range",
+    "exercise_number": 5,
+    "difficulty": "beginner",
+    "exercise": "Create a program that uses range() to print every 5th number from 5 to 50."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Range",
+    "exercise_number": 6,
+    "difficulty": "intermediate",
+    "exercise": "Write a function that takes a number n and uses range() to calculate the factorial of n."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Range",
+    "exercise_number": 7,
+    "difficulty": "intermediate",
+    "exercise": "Use range() to create a list of the first 20 square numbers (1, 4, 9, etc.)."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Range",
+    "exercise_number": 8,
+    "difficulty": "intermediate",
+    "exercise": "Create a program that uses range() to check if a given number is prime."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Range",
+    "exercise_number": 9,
+    "difficulty": "intermediate",
+    "exercise": "Write a function that uses range() to print a pattern of asterisks, with each line containing one more asterisk than the previous line."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Range",
+    "exercise_number": 10,
+    "difficulty": "intermediate",
+    "exercise": "Use range() to find all numbers divisible by both 3 and 5 in a given range."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Range",
+    "exercise_number": 11,
+    "difficulty": "advanced",
+    "exercise": "Create a function that uses range() to generate the first n numbers in the Fibonacci sequence."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Range",
+    "exercise_number": 12,
+    "difficulty": "advanced",
+    "exercise": "Write a program that uses nested loops with range() to print a multiplication table (1 to 10)."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Range",
+    "exercise_number": 13,
+    "difficulty": "advanced",
+    "exercise": "Create a function that uses range() to generate a list of all prime numbers up to a given limit."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Range",
+    "exercise_number": 14,
+    "difficulty": "advanced",
+    "exercise": "Use range() to implement the binary search algorithm on a sorted list of numbers."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Range",
+    "exercise_number": 15,
+    "difficulty": "advanced",
+    "exercise": "Write a program that uses range() to check if a number is a perfect number (equal to the sum of its proper divisors)."
+  }
+] 

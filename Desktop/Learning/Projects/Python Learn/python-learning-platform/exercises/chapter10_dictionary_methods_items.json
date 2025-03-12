@@ -1,0 +1,72 @@
+[
+  {
+    "notebook": "10_dictionary_methods.ipynb",
+    "chapter_index": "Dictionary Methods - items()",
+    "exercise_number": 1,
+    "difficulty": "beginner",
+    "exercise": "my_dict = {'a': 1, 'b': 2, 'c': 3}. Use the items() method to get all key-value pairs and print them."
+  },
+  {
+    "notebook": "10_dictionary_methods.ipynb",
+    "chapter_index": "Dictionary Methods - items()",
+    "exercise_number": 2,
+    "difficulty": "beginner",
+    "exercise": "user = {'name': 'John', 'age': 30, 'city': 'New York'}. Use the items() method to get all key-value pairs, convert them to a list, and print the list."
+  },
+  {
+    "notebook": "10_dictionary_methods.ipynb",
+    "chapter_index": "Dictionary Methods - items()",
+    "exercise_number": 3,
+    "difficulty": "beginner",
+    "exercise": "empty_dict = {}. Apply the items() method to this empty dictionary and print the result. What do you observe?"
+  },
+  {
+    "notebook": "10_dictionary_methods.ipynb",
+    "chapter_index": "Dictionary Methods - items()",
+    "exercise_number": 4,
+    "difficulty": "beginner",
+    "exercise": "colors = {'red': '#FF0000', 'green': '#00FF00', 'blue': '#0000FF'}. Print the data type of the object returned by colors.items()."
+  },
+  {
+    "notebook": "10_dictionary_methods.ipynb",
+    "chapter_index": "Dictionary Methods - items()",
+    "exercise_number": 5,
+    "difficulty": "intermediate",
+    "exercise": "scores = {'math': 90, 'english': 85, 'science': 95}. Use the items() method to iterate through the dictionary, printing each subject and its score on a separate line in the format 'Subject: Score'."
+  },
+  {
+    "notebook": "10_dictionary_methods.ipynb",
+    "chapter_index": "Dictionary Methods - items()",
+    "exercise_number": 6,
+    "difficulty": "intermediate",
+    "exercise": "original = {'a': 1, 'b': 2, 'c': 3}. Use the items() method to create a new dictionary where the keys and values are swapped (values become keys and keys become values). Print the new dictionary."
+  },
+  {
+    "notebook": "10_dictionary_methods.ipynb",
+    "chapter_index": "Dictionary Methods - items()",
+    "exercise_number": 7,
+    "difficulty": "intermediate",
+    "exercise": "inventory = {'apples': 50, 'bananas': 30, 'oranges': 40}. Use the items() method to iterate through the dictionary and print messages like 'We have [quantity] [fruit] in stock.' for each item."
+  },
+  {
+    "notebook": "10_dictionary_methods.ipynb",
+    "chapter_index": "Dictionary Methods - items()",
+    "exercise_number": 8,
+    "difficulty": "intermediate",
+    "exercise": "student_grades = {'Alice': 85, 'Bob': 92, 'Charlie': 78, 'Diana': 95}. Use the items() method to identify and print the name of the student with the highest grade."
+  },
+  {
+    "notebook": "10_dictionary_methods.ipynb",
+    "chapter_index": "Dictionary Methods - items()",
+    "exercise_number": 9,
+    "difficulty": "advanced",
+    "exercise": "data = {'user1': {'name': 'Alice', 'active': True}, 'user2': {'name': 'Bob', 'active': False}, 'user3': {'name': 'Charlie', 'active': True}}. Use the items() method to print the user ID and name for each active user."
+  },
+  {
+    "notebook": "10_dictionary_methods.ipynb",
+    "chapter_index": "Dictionary Methods - items()",
+    "exercise_number": 10,
+    "difficulty": "advanced",
+    "exercise": "Create a function that takes a dictionary of student scores as input (name:score) and uses the items() method to return a new dictionary with the same keys but updated values: 'Pass' for scores 60 or above, and 'Fail' for scores below 60."
+  }
+] 

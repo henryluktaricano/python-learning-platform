@@ -1,0 +1,72 @@
+[
+  {
+    "notebook": "2_For_Loops.ipynb",
+    "chapter_index": "For Loops - Dictionaries",
+    "exercise_number": 1,
+    "difficulty": "beginner",
+    "exercise": "Create a dictionary with key-value pairs of fruits and their colors. Use a for loop to print each key (fruit name)."
+  },
+  {
+    "notebook": "2_For_Loops.ipynb",
+    "chapter_index": "For Loops - Dictionaries",
+    "exercise_number": 2,
+    "difficulty": "beginner",
+    "exercise": "Create a dictionary with key-value pairs of students and their scores. Use a for loop with the .values() method to print all the scores."
+  },
+  {
+    "notebook": "2_For_Loops.ipynb",
+    "chapter_index": "For Loops - Dictionaries",
+    "exercise_number": 3,
+    "difficulty": "beginner",
+    "exercise": "Create a dictionary with key-value pairs of countries and their capitals. Use a for loop with the .items() method to print sentences like 'The capital of X is Y'."
+  },
+  {
+    "notebook": "2_For_Loops.ipynb",
+    "chapter_index": "For Loops - Dictionaries",
+    "exercise_number": 4,
+    "difficulty": "intermediate",
+    "exercise": "Create a dictionary with key-value pairs of products and their prices. Use a for loop to create a new dictionary where all prices are increased by 10%."
+  },
+  {
+    "notebook": "2_For_Loops.ipynb",
+    "chapter_index": "For Loops - Dictionaries",
+    "exercise_number": 5,
+    "difficulty": "intermediate",
+    "exercise": "Create a dictionary with key-value pairs of words and their frequencies. Use a for loop to find and print the word with the highest frequency."
+  },
+  {
+    "notebook": "2_For_Loops.ipynb",
+    "chapter_index": "For Loops - Dictionaries",
+    "exercise_number": 6,
+    "difficulty": "intermediate",
+    "exercise": "Create a dictionary with key-value pairs of student names and their grades (A, B, C, etc.). Use a for loop to create two lists: one with students who passed (grades A, B, or C) and one with students who failed."
+  },
+  {
+    "notebook": "2_For_Loops.ipynb",
+    "chapter_index": "For Loops - Dictionaries",
+    "exercise_number": 7,
+    "difficulty": "intermediate",
+    "exercise": "Create a dictionary with key-value pairs of book titles and their authors. Use a for loop to create a new dictionary where the keys are authors and the values are lists of their book titles."
+  },
+  {
+    "notebook": "2_For_Loops.ipynb",
+    "chapter_index": "For Loops - Dictionaries",
+    "exercise_number": 8,
+    "difficulty": "advanced",
+    "exercise": "Create a dictionary where the keys are names and the values are dictionaries containing 'age' and 'city' keys. Use nested for loops to print all names of people who are older than 30 and live in a specific city."
+  },
+  {
+    "notebook": "2_For_Loops.ipynb",
+    "chapter_index": "For Loops - Dictionaries",
+    "exercise_number": 9,
+    "difficulty": "advanced",
+    "exercise": "Create a dictionary with key-value pairs of categories and lists of items. Use a for loop to count the total number of items across all categories and create a new dictionary with category: count pairs."
+  },
+  {
+    "notebook": "2_For_Loops.ipynb",
+    "chapter_index": "For Loops - Dictionaries",
+    "exercise_number": 10,
+    "difficulty": "advanced",
+    "exercise": "Create a dictionary that represents a small inventory system with item names as keys and dictionaries as values (containing 'quantity' and 'price' keys). Use for loops to calculate the total value of the inventory and print items that need to be restocked (quantity < 5)."
+  }
+] 

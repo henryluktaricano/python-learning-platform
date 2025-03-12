@@ -1,0 +1,107 @@
+[
+  {
+    "notebook": "5_NestedFunctions.ipynb",
+    "chapter_index": "Nested Functions",
+    "exercise_number": 1,
+    "difficulty": "beginner",
+    "exercise": "Create a function that imports and uses the 'random.randint' function to generate a random number between 1 and 10, returning the result."
+  },
+  {
+    "notebook": "5_NestedFunctions.ipynb",
+    "chapter_index": "Nested Functions",
+    "exercise_number": 2,
+    "difficulty": "beginner",
+    "exercise": "Write a wrapper function for the built-in 'len()' function that returns the length of any input along with a message saying 'The length is [length]'."
+  },
+  {
+    "notebook": "5_NestedFunctions.ipynb",
+    "chapter_index": "Nested Functions",
+    "exercise_number": 3,
+    "difficulty": "beginner",
+    "exercise": "Create a function that wraps the 'max()' function, taking a list as input and returning the maximum value with a descriptive message."
+  },
+  {
+    "notebook": "5_NestedFunctions.ipynb",
+    "chapter_index": "Nested Functions",
+    "exercise_number": 4,
+    "difficulty": "beginner",
+    "exercise": "Write a function called 'shuffle_and_return' that takes a list, shuffles it using random.shuffle, and returns the shuffled list."
+  },
+  {
+    "notebook": "5_NestedFunctions.ipynb",
+    "chapter_index": "Nested Functions",
+    "exercise_number": 5,
+    "difficulty": "beginner",
+    "exercise": "Create a function that uses the random.choice function to select and return a random element from a list passed as an argument."
+  },
+  {
+    "notebook": "5_NestedFunctions.ipynb",
+    "chapter_index": "Nested Functions",
+    "exercise_number": 6,
+    "difficulty": "intermediate",
+    "exercise": "Write a 'dice_roll' function that uses random.randint to simulate rolling a specified number of dice with a given number of sides, returning the total."
+  },
+  {
+    "notebook": "5_NestedFunctions.ipynb",
+    "chapter_index": "Nested Functions",
+    "exercise_number": 7,
+    "difficulty": "intermediate",
+    "exercise": "Create a 'card_dealer' function that uses a nested 'shuffle_deck' function to shuffle a deck of cards and deal a specified number of cards to the player."
+  },
+  {
+    "notebook": "5_NestedFunctions.ipynb",
+    "chapter_index": "Nested Functions",
+    "exercise_number": 8,
+    "difficulty": "intermediate",
+    "exercise": "Write a function that creates a simple number guessing game by nesting a 'generate_number' function inside a 'play_game' function that handles user input and feedback."
+  },
+  {
+    "notebook": "5_NestedFunctions.ipynb",
+    "chapter_index": "Nested Functions",
+    "exercise_number": 9,
+    "difficulty": "intermediate",
+    "exercise": "Implement a 'password_generator' function that uses nested functions for generating random characters, numbers, and special symbols."
+  },
+  {
+    "notebook": "5_NestedFunctions.ipynb",
+    "chapter_index": "Nested Functions",
+    "exercise_number": 10,
+    "difficulty": "intermediate",
+    "exercise": "Create a 'calculate_statistics' function that uses nested functions to compute mean, median, and mode of a dataset, returning all three values."
+  },
+  {
+    "notebook": "5_NestedFunctions.ipynb",
+    "chapter_index": "Nested Functions",
+    "exercise_number": 11,
+    "difficulty": "advanced",
+    "exercise": "Build a simplified version of the 'guess_ball' game from the notebook with three cups, using nested functions for shuffling and checking the result."
+  },
+  {
+    "notebook": "5_NestedFunctions.ipynb",
+    "chapter_index": "Nested Functions",
+    "exercise_number": 12,
+    "difficulty": "advanced",
+    "exercise": "Create a 'text_analyzer' function that uses nested functions to count words, sentences, and calculate readability scores for a given text."
+  },
+  {
+    "notebook": "5_NestedFunctions.ipynb",
+    "chapter_index": "Nested Functions",
+    "exercise_number": 13,
+    "difficulty": "advanced",
+    "exercise": "Implement a 'tic_tac_toe' game using nested functions for handling the board, checking for wins, and managing player turns."
+  },
+  {
+    "notebook": "5_NestedFunctions.ipynb",
+    "chapter_index": "Nested Functions",
+    "exercise_number": 14,
+    "difficulty": "advanced",
+    "exercise": "Write a 'simulate_tournament' function that uses nested functions to create teams, simulate matches, and determine winners through multiple rounds."
+  },
+  {
+    "notebook": "5_NestedFunctions.ipynb",
+    "chapter_index": "Nested Functions",
+    "exercise_number": 15,
+    "difficulty": "advanced",
+    "exercise": "Create a 'stock_market_simulator' function that uses nested functions to generate random price movements, calculate portfolio value, and provide trading recommendations."
+  }
+] 

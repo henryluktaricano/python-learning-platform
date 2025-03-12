@@ -1,0 +1,142 @@
+[
+  {
+    "notebook": "5_string_methods.ipynb",
+    "chapter_index": "String Methods - lower()",
+    "exercise_number": 1,
+    "difficulty": "beginner",
+    "exercise": "text = 'HELLO'. Convert this to lowercase."
+  },
+  {
+    "notebook": "5_string_methods.ipynb",
+    "chapter_index": "String Methods - lower()",
+    "exercise_number": 2,
+    "difficulty": "beginner",
+    "exercise": "name = 'JOHN SMITH'. Convert this name to lowercase."
+  },
+  {
+    "notebook": "5_string_methods.ipynb",
+    "chapter_index": "String Methods - lower()",
+    "exercise_number": 3,
+    "difficulty": "beginner",
+    "exercise": "sentence = 'PYTHON IS FUN'. Convert this to lowercase."
+  },
+  {
+    "notebook": "5_string_methods.ipynb",
+    "chapter_index": "String Methods - lower()",
+    "exercise_number": 4,
+    "difficulty": "beginner",
+    "exercise": "text = 'Mixed CASE string'. Convert this to lowercase."
+  },
+  {
+    "notebook": "5_string_methods.ipynb",
+    "chapter_index": "String Methods - lower()",
+    "exercise_number": 5,
+    "difficulty": "beginner",
+    "exercise": "code = 'ABC123'. What happens when you apply lower() to this mixed string?"
+  },
+  {
+    "notebook": "5_string_methods.ipynb",
+    "chapter_index": "String Methods - lower()",
+    "exercise_number": 6,
+    "difficulty": "intermediate",
+    "exercise": "email = 'User@Example.COM'. Convert this email to lowercase as is often done for consistency."
+  },
+  {
+    "notebook": "5_string_methods.ipynb",
+    "chapter_index": "String Methods - lower()",
+    "exercise_number": 7,
+    "difficulty": "intermediate",
+    "exercise": "text = 'WARNING: System Error'. Convert only 'WARNING' to lowercase."
+  },
+  {
+    "notebook": "5_string_methods.ipynb",
+    "chapter_index": "String Methods - lower()",
+    "exercise_number": 8,
+    "difficulty": "intermediate",
+    "exercise": "sentence = 'Python Programming'. Create a new string with first word lowercase, second uppercase."
+  },
+  {
+    "notebook": "5_string_methods.ipynb",
+    "chapter_index": "String Methods - lower()",
+    "exercise_number": 9,
+    "difficulty": "intermediate",
+    "exercise": "name = 'JOHN'. Create the string 'John' using both upper() and lower()."
+  },
+  {
+    "notebook": "5_string_methods.ipynb",
+    "chapter_index": "String Methods - lower()",
+    "exercise_number": 10,
+    "difficulty": "intermediate",
+    "exercise": "words = 'APPLE banana CHERRY'. Make only the uppercase words lowercase."
+  },
+  {
+    "notebook": "5_string_methods.ipynb",
+    "chapter_index": "String Methods - lower()",
+    "exercise_number": 11,
+    "difficulty": "intermediate",
+    "exercise": "text = 'PYTHON'. What happens if you chain methods: text.lower().lower()?"
+  },
+  {
+    "notebook": "5_string_methods.ipynb",
+    "chapter_index": "String Methods - lower()",
+    "exercise_number": 12,
+    "difficulty": "intermediate",
+    "exercise": "message = 'KEEP CALM AND CARRY ON'. Convert this to sentence case using string methods."
+  },
+  {
+    "notebook": "5_string_methods.ipynb",
+    "chapter_index": "String Methods - lower()",
+    "exercise_number": 13,
+    "difficulty": "advanced",
+    "exercise": "sentence = 'THE QUICK BROWN FOX'. Convert to lowercase except for the first character."
+  },
+  {
+    "notebook": "5_string_methods.ipynb",
+    "chapter_index": "String Methods - lower()",
+    "exercise_number": 14,
+    "difficulty": "advanced",
+    "exercise": "text = 'PYTHON IS AMAZING'. Create a string where every other character is lowercase."
+  },
+  {
+    "notebook": "5_string_methods.ipynb",
+    "chapter_index": "String Methods - lower()",
+    "exercise_number": 15,
+    "difficulty": "advanced",
+    "exercise": "shout = 'I AM SHOUTING!'. Convert this to a more normal tone with proper capitalization."
+  },
+  {
+    "notebook": "5_string_methods.ipynb",
+    "chapter_index": "String Methods - lower()",
+    "exercise_number": 16,
+    "difficulty": "advanced",
+    "exercise": "url = 'https://WWW.EXAMPLE.COM'. Standardize this URL by converting it to lowercase."
+  },
+  {
+    "notebook": "5_string_methods.ipynb",
+    "chapter_index": "String Methods - lower()",
+    "exercise_number": 17,
+    "difficulty": "advanced",
+    "exercise": "text = 'PYTHON'. Create 'p-y-t-h-o-n' using lower() with other string operations."
+  },
+  {
+    "notebook": "5_string_methods.ipynb",
+    "chapter_index": "String Methods - lower()",
+    "exercise_number": 18,
+    "difficulty": "advanced",
+    "exercise": "acronym = 'NASA is an ACRONYM'. Convert only complete uppercase words to lowercase."
+  },
+  {
+    "notebook": "5_string_methods.ipynb",
+    "chapter_index": "String Methods - lower()",
+    "exercise_number": 19,
+    "difficulty": "advanced",
+    "exercise": "text = 'DANGER ZONE'. Create a warning message with lowercase text surrounded by caution symbols."
+  },
+  {
+    "notebook": "5_string_methods.ipynb",
+    "chapter_index": "String Methods - lower()",
+    "exercise_number": 20,
+    "difficulty": "advanced",
+    "exercise": "code = 'PYTHON123'. Convert just the letter characters to lowercase while keeping numbers as is."
+  }
+] 

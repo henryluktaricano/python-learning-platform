@@ -1,0 +1,72 @@
+[
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Length",
+    "exercise_number": 1,
+    "difficulty": "beginner",
+    "exercise": "my_list = [1, 2, 3, 4, 5]. Find and print the length of my_list using the len() function."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Length",
+    "exercise_number": 2,
+    "difficulty": "beginner",
+    "exercise": "empty_list = []. Find and print the length of empty_list."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Length",
+    "exercise_number": 3,
+    "difficulty": "beginner",
+    "exercise": "names = ['Alice', 'Bob', 'Charlie']. Use the len() function to find how many names are in the list."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Length",
+    "exercise_number": 4,
+    "difficulty": "beginner",
+    "exercise": "mixed_data = [10, 'hello', 3.14, True]. Determine the length of this mixed data list."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Length",
+    "exercise_number": 5,
+    "difficulty": "intermediate",
+    "exercise": "nested_list = [[1, 2], [3, 4], [5, 6]]. Find the length of nested_list. Does len() count the inner lists as single elements?"
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Length",
+    "exercise_number": 6,
+    "difficulty": "intermediate",
+    "exercise": "list1 = [1, 2, 3]. list2 = [4, 5, 6]. Calculate and print the sum of the lengths of list1 and list2."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Length",
+    "exercise_number": 7,
+    "difficulty": "intermediate",
+    "exercise": "long_list = list(range(100)). Find the length of long_list. Create a new list containing only the first half of long_list and find its length."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Length",
+    "exercise_number": 8,
+    "difficulty": "intermediate",
+    "exercise": "numbers = [10, 20, 30, 40, 50]. Write code to check if the length of numbers is greater than 3. If it is, print 'List is long enough'."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Length",
+    "exercise_number": 9,
+    "difficulty": "advanced",
+    "exercise": "Create a function that takes a list as an argument and returns True if the length of the list is even, and False if it's odd. Test it with different lists."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Length",
+    "exercise_number": 10,
+    "difficulty": "advanced",
+    "exercise": "dimensions = [[1, 2, 3], [4, 5], [6, 7, 8, 9]]. Find the total length of dimensions. Then calculate the sum of the lengths of all inner lists."
+  }
+] 

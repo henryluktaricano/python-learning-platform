@@ -1,0 +1,142 @@
+[
+  {
+    "notebook": "8_list_methods.ipynb",
+    "chapter_index": "List reverse() Method",
+    "exercise_number": 1,
+    "difficulty": "beginner",
+    "exercise": "numbers = [1, 2, 3, 4, 5]. Use the reverse() method to reverse the order of elements. Print the reversed list."
+  },
+  {
+    "notebook": "8_list_methods.ipynb",
+    "chapter_index": "List reverse() Method",
+    "exercise_number": 2,
+    "difficulty": "beginner",
+    "exercise": "letters = ['a', 'b', 'c', 'd']. Use reverse() to change the order of the letters. Print the updated list."
+  },
+  {
+    "notebook": "8_list_methods.ipynb",
+    "chapter_index": "List reverse() Method",
+    "exercise_number": 3,
+    "difficulty": "beginner",
+    "exercise": "fruits = ['apple', 'banana', 'cherry']. Reverse this list and print it. Then try to store the result in a variable (e.g., result = fruits.reverse()). Print the value of result."
+  },
+  {
+    "notebook": "8_list_methods.ipynb",
+    "chapter_index": "List reverse() Method",
+    "exercise_number": 4,
+    "difficulty": "beginner",
+    "exercise": "words = ['hello', 'world']. Make a copy of this list, then reverse the copy. Print both the original and reversed lists."
+  },
+  {
+    "notebook": "8_list_methods.ipynb",
+    "chapter_index": "List reverse() Method",
+    "exercise_number": 5,
+    "difficulty": "beginner",
+    "exercise": "countdown = [5, 4, 3, 2, 1]. Reverse this list to create a countup sequence. Print the result."
+  },
+  {
+    "notebook": "8_list_methods.ipynb",
+    "chapter_index": "List reverse() Method",
+    "exercise_number": 6,
+    "difficulty": "beginner",
+    "exercise": "single_item = ['solo']. Apply reverse() to this list with only one element. Print the list and explain what happened."
+  },
+  {
+    "notebook": "8_list_methods.ipynb",
+    "chapter_index": "List reverse() Method",
+    "exercise_number": 7,
+    "difficulty": "beginner",
+    "exercise": "empty_list = []. Try to use reverse() on this empty list. Print the list and explain what happened."
+  },
+  {
+    "notebook": "8_list_methods.ipynb",
+    "chapter_index": "List reverse() Method",
+    "exercise_number": 8,
+    "difficulty": "intermediate",
+    "exercise": "alphabet = ['a', 'b', 'c', 'd', 'e']. Reverse this list once, print it, then reverse it again. Compare the final list with the original."
+  },
+  {
+    "notebook": "8_list_methods.ipynb",
+    "chapter_index": "List reverse() Method",
+    "exercise_number": 9,
+    "difficulty": "intermediate",
+    "exercise": "values = [True, False, True]. Reverse this list of boolean values. Print the result."
+  },
+  {
+    "notebook": "8_list_methods.ipynb",
+    "chapter_index": "List reverse() Method",
+    "exercise_number": 10,
+    "difficulty": "intermediate",
+    "exercise": "numbers = [1, 2, 3, 4, 5]. Create a list of the squares of these numbers. Reverse both lists and print them."
+  },
+  {
+    "notebook": "8_list_methods.ipynb",
+    "chapter_index": "List reverse() Method",
+    "exercise_number": 11,
+    "difficulty": "intermediate",
+    "exercise": "palindrome = ['r', 'a', 'c', 'e', 'c', 'a', 'r']. Make a copy of this list, reverse it, and compare it with the original. Is it the same? Print both lists."
+  },
+  {
+    "notebook": "8_list_methods.ipynb",
+    "chapter_index": "List reverse() Method",
+    "exercise_number": 12,
+    "difficulty": "intermediate",
+    "exercise": "even_numbers = [2, 4, 6, 8, 10]. odd_numbers = [1, 3, 5, 7, 9]. Reverse both lists, then create a new list by combining them. Print the result."
+  },
+  {
+    "notebook": "8_list_methods.ipynb",
+    "chapter_index": "List reverse() Method",
+    "exercise_number": 13,
+    "difficulty": "intermediate",
+    "exercise": "sequence = [1, 2, 3, 4, 5]. Use slicing to create a reversed copy (without using reverse()), then use the reverse() method on the original. Compare the results."
+  },
+  {
+    "notebook": "8_list_methods.ipynb",
+    "chapter_index": "List reverse() Method",
+    "exercise_number": 14,
+    "difficulty": "intermediate",
+    "exercise": "sorted_numbers = [1, 2, 3, 4, 5]. Use reverse() to put them in descending order. Compare this with using sort(reverse=True) on a copy of the original list. Print both results."
+  },
+  {
+    "notebook": "8_list_methods.ipynb",
+    "chapter_index": "List reverse() Method",
+    "exercise_number": 15,
+    "difficulty": "advanced",
+    "exercise": "nested = [[1, 2], [3, 4], [5, 6]]. Reverse this list of lists. Then try to reverse each inner list as well. Print the result after each step."
+  },
+  {
+    "notebook": "8_list_methods.ipynb",
+    "chapter_index": "List reverse() Method",
+    "exercise_number": 16,
+    "difficulty": "advanced",
+    "exercise": "coordinates = [(1, 2), (3, 4), (5, 6)]. Reverse this list of tuples. Print the result. Then explain why you cannot reverse the tuples themselves."
+  },
+  {
+    "notebook": "8_list_methods.ipynb",
+    "chapter_index": "List reverse() Method",
+    "exercise_number": 17,
+    "difficulty": "advanced",
+    "exercise": "strings = ['hello', 'world', 'python']. Reverse this list. Then create a new list where each string is also reversed. Print both lists."
+  },
+  {
+    "notebook": "8_list_methods.ipynb",
+    "chapter_index": "List reverse() Method",
+    "exercise_number": 18,
+    "difficulty": "advanced",
+    "exercise": "records = [{'name': 'Alice', 'score': 95}, {'name': 'Bob', 'score': 85}]. Reverse this list of dictionaries. Print the updated list."
+  },
+  {
+    "notebook": "8_list_methods.ipynb",
+    "chapter_index": "List reverse() Method",
+    "exercise_number": 19,
+    "difficulty": "advanced",
+    "exercise": "matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]. Reverse the entire matrix. Then reverse each row. Print the result after each step."
+  },
+  {
+    "notebook": "8_list_methods.ipynb",
+    "chapter_index": "List reverse() Method",
+    "exercise_number": 20,
+    "difficulty": "advanced",
+    "exercise": "data = [10, 'hello', True, 3.14]. Reverse this list of mixed data types. Create a new list with the type of each element (using type()), and reverse that too. Print both lists."
+  }
+] 

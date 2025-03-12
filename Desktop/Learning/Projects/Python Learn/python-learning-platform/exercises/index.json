@@ -1,0 +1,220 @@
+{
+  "chapter1": {
+    "title": "Data Objects",
+    "notebooks": {
+      "1_object_types": {
+        "title": "Object Types",
+        "exercises": "chapter1_object_types.json"
+      },
+      "2_numbers": {
+        "title": "Numbers",
+        "exercises": "chapter2_numbers.json"
+      },
+      "3_variable_assigning": {
+        "title": "Variable Assigning",
+        "exercises": "chapter3_variables.json"
+      },
+      "4_strings": {
+        "title": "Strings",
+        "exercises": [
+          "chapter4_strings_part1.json",
+          "chapter4_strings_part2.json"
+        ]
+      },
+      "5_string_methods": {
+        "title": "String Methods",
+        "exercises": [
+          "chapter5_string_immutability.json",
+          "chapter5_string_concatenation.json",
+          "chapter5_string_methods_upper.json",
+          "chapter5_string_methods_capitalize.json",
+          "chapter5_string_methods_lower.json",
+          "chapter5_string_methods_split.json"
+        ]
+      },
+      "6_string_formatting": {
+        "title": "String Formatting",
+        "exercises": "chapter6_string_formatting.json"
+      },
+      "7_lists": {
+        "title": "Lists",
+        "exercises": [
+          "chapter7_lists_creating.json",
+          "chapter7_lists_length.json", 
+          "chapter7_lists_indexing.json",
+          "chapter7_lists_slicing.json",
+          "chapter7_lists_concatenation.json",
+          "chapter7_lists_modifying.json",
+          "chapter7_lists_mixed.json"
+        ]
+      },
+      "8_list_methods": {
+        "title": "List Methods",
+        "exercises": [
+          "chapter8_list_methods_append.json",
+          "chapter8_list_methods_pop.json",
+          "chapter8_list_methods_sort.json",
+          "chapter8_list_methods_reverse.json",
+          "chapter8_list_methods_mixed.json"
+        ]
+      },
+      "9_dictionaries": {
+        "title": "Dictionaries",
+        "exercises": [
+          "chapter9_dictionaries_access.json",
+          "chapter9_dictionaries_value_types.json",
+          "chapter9_dictionaries_nested.json",
+          "chapter9_dictionaries_working_with_values.json",
+          "chapter9_dictionaries_methods_behaviors.json",
+          "chapter9_dictionaries_method_notes.json"
+        ]
+      },
+      "10_dictionary_methods": {
+        "title": "Dictionary Methods",
+        "exercises": [
+          "chapter10_dictionary_methods_keys.json",
+          "chapter10_dictionary_methods_values.json",
+          "chapter10_dictionary_methods_items.json"
+        ]
+      },
+      "11_tuples": {
+        "title": "Tuples",
+        "exercises": [
+          "chapter11_tuples_basics.json",
+          "chapter11_tuples_count.json",
+          "chapter11_tuples_index.json",
+          "chapter11_tuples_use_cases.json",
+          "chapter11_tuples_examples.json"
+        ]
+      },
+      "12_sets": {
+        "title": "Sets",
+        "exercises": [
+          "chapter12_sets_syntax.json",
+          "chapter12_sets_add.json",
+          "chapter12_sets_uniqueness.json",
+          "chapter12_sets_order.json"
+        ]
+      },
+      "14_File_Handling": {
+        "title": "File Handling",
+        "exercises": [
+          "chapter14_file_opening_closing.json",
+          "chapter14_file_writing.json",
+          "chapter14_file_reading.json"
+        ]
+      },
+      "15_More_Files": {
+        "title": "Advanced File Handling",
+        "exercises": [
+          "chapter15_file_modes.json",
+          "chapter15_with_statement_basic.json",
+          "chapter15_with_statement_advanced.json"
+        ]
+      }
+    }
+  },
+  "chapter2": {
+    "title": "Comparison and Logical Operators",
+    "notebooks": {
+      "1_Comparison_Operators": {
+        "title": "Comparison Operators",
+        "exercises": "chapter2_1_comparison_operators.json"
+      },
+      "2_Logical_Operators": {
+        "title": "Logical Operators",
+        "exercises": "chapter2_2_logical_operators.json"
+      }
+    }
+  },
+  "chapter3": {
+    "title": "Statements",
+    "notebooks": {
+      "1_If_Elif_Else": {
+        "title": "Conditional Statements",
+        "exercises": [
+          "chapter3_1_if_else_basics.json",
+          "chapter3_1_if_elif_else_chains.json",
+          "chapter3_1_complex_conditionals.json"
+        ]
+      },
+      "2_For_Loops": {
+        "title": "For Loops",
+        "exercises": [
+          "chapter3_2_basic_for_loops.json",
+          "chapter3_2_for_loops_conditionals.json",
+          "chapter3_2_for_loops_data_types.json",
+          "chapter3_2_for_loops_tuple_unpacking.json",
+          "chapter3_2_for_loops_dictionaries.json"
+        ]
+      },
+      "3_While_Loops": {
+        "title": "While Loops",
+        "exercises": [
+          "chapter3_3_basic_while_loops.json",
+          "chapter3_3_control_statements.json",
+          "chapter3_3_while_loop_examples.json"
+        ]
+      },
+      "4_Useful_Operators": {
+        "title": "Useful Operators",
+        "exercises": [
+          "chapter3_4_range_operator.json",
+          "chapter3_4_enumerate_operator.json",
+          "chapter3_4_zip_operator.json",
+          "chapter3_4_min_max_operators.json",
+          "chapter3_4_in_operator.json",
+          "chapter3_4_random_functions.json",
+          "chapter3_4_input_functions.json"
+        ]
+      },
+      "5_List_Comprehensions": {
+        "title": "List Comprehensions",
+        "exercises": [
+          "chapter3_5_list_comprehensions.json"
+        ]
+      }
+    }
+  },
+  "chapter4": {
+    "title": "Methods & Functions",
+    "notebooks": {
+      "1_Methods_&_PythonDocumentation": {
+        "title": "Methods & Python Documentation",
+        "exercises": [
+          "chapter4_1_documentation_help.json"
+        ]
+      },
+      "2_defKeyword": {
+        "title": "Function Definition",
+        "exercises": [
+          "chapter4_2_functions_def_keyword.json"
+        ]
+      },
+      "3_functionsWlogic": {
+        "title": "Functions with Logic",
+        "exercises": [
+          "chapter4_3_functions_with_logic.json"
+        ]
+      },
+      "4_TupleUnpacking": {
+        "title": "Tuple Unpacking",
+        "exercises": [
+          "chapter4_4_tuple_unpacking.json"
+        ]
+      },
+      "5_NestedFunctions": {
+        "title": "Nested Functions",
+        "exercises": [
+          "chapter4_5_nested_functions.json"
+        ]
+      },
+      "6_args_kwargs": {
+        "title": "Args and Kwargs",
+        "exercises": [
+          "chapter4_6_args_kwargs.json"
+        ]
+      }
+    }
+  }
+} 

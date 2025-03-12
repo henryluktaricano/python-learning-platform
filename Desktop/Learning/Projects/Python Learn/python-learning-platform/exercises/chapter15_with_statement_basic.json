@@ -1,0 +1,72 @@
+[
+  {
+    "notebook": "15_More_Files.ipynb",
+    "chapter_index": "Advanced File Handling - With Statement (Basic)",
+    "exercise_number": 1,
+    "difficulty": "beginner",
+    "exercise": "Open a file named 'with_test.txt' using the with statement in write mode. Write a few lines of text and verify that the file is automatically closed after the with block."
+  },
+  {
+    "notebook": "15_More_Files.ipynb",
+    "chapter_index": "Advanced File Handling - With Statement (Basic)",
+    "exercise_number": 2,
+    "difficulty": "beginner",
+    "exercise": "Use the with statement to open a file in read mode, read its contents, and print them. Explain why the with statement is preferred over manually opening and closing files."
+  },
+  {
+    "notebook": "15_More_Files.ipynb",
+    "chapter_index": "Advanced File Handling - With Statement (Basic)",
+    "exercise_number": 3,
+    "difficulty": "beginner",
+    "exercise": "Create a file using the with statement in write mode. Inside the with block, try to create a deliberate error (like dividing by zero). Verify that the file is still properly closed despite the error."
+  },
+  {
+    "notebook": "15_More_Files.ipynb",
+    "chapter_index": "Advanced File Handling - With Statement (Basic)",
+    "exercise_number": 4,
+    "difficulty": "beginner",
+    "exercise": "Use the with statement to open a file in 'a' mode. Append a line of text to the file. Then open the file again with another with statement to read and print its contents."
+  },
+  {
+    "notebook": "15_More_Files.ipynb",
+    "chapter_index": "Advanced File Handling - With Statement (Basic)",
+    "exercise_number": 5,
+    "difficulty": "intermediate",
+    "exercise": "Open a file using the with statement in 'w+' mode. Write a few lines to it, use seek(0) to reset the cursor, then read and print the file's contents, all within the same with block."
+  },
+  {
+    "notebook": "15_More_Files.ipynb",
+    "chapter_index": "Advanced File Handling - With Statement (Basic)",
+    "exercise_number": 6,
+    "difficulty": "intermediate",
+    "exercise": "Create a nested with statement structure to open two different files simultaneously: one for reading and one for writing. Read the content from the first file and write it to the second file."
+  },
+  {
+    "notebook": "15_More_Files.ipynb",
+    "chapter_index": "Advanced File Handling - With Statement (Basic)",
+    "exercise_number": 7,
+    "difficulty": "intermediate",
+    "exercise": "Write a function that uses the with statement to append the current date and time to a log file each time it's called. Include error handling within the function to ensure the file operation completes safely."
+  },
+  {
+    "notebook": "15_More_Files.ipynb",
+    "chapter_index": "Advanced File Handling - With Statement (Basic)",
+    "exercise_number": 8,
+    "difficulty": "intermediate",
+    "exercise": "Use the with statement to open a file in 'r+' mode. Read the first line, then use seek() to move the cursor to the end of the file, and append a new line. Print the entire modified file content."
+  },
+  {
+    "notebook": "15_More_Files.ipynb",
+    "chapter_index": "Advanced File Handling - With Statement (Basic)",
+    "exercise_number": 9,
+    "difficulty": "intermediate",
+    "exercise": "Create a function that uses the with statement to read a file and count the frequency of each word. Return a dictionary with words as keys and their frequencies as values."
+  },
+  {
+    "notebook": "15_More_Files.ipynb",
+    "chapter_index": "Advanced File Handling - With Statement (Basic)",
+    "exercise_number": 10,
+    "difficulty": "advanced",
+    "exercise": "Write a program that uses the with statement to open a file containing comma-separated values. Parse the content into a list of dictionaries where each dictionary represents a row of data with appropriate column names as keys."
+  }
+] 

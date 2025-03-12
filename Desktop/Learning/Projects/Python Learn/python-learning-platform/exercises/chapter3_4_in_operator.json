@@ -1,0 +1,107 @@
+[
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - In Operator",
+    "exercise_number": 1,
+    "difficulty": "beginner",
+    "exercise": "Write a program that checks if a specific element is in a list using the 'in' operator."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - In Operator",
+    "exercise_number": 2,
+    "difficulty": "beginner",
+    "exercise": "Create a program that asks the user for a character and checks if it exists in a given string using the 'in' operator."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - In Operator",
+    "exercise_number": 3,
+    "difficulty": "beginner",
+    "exercise": "Write a program that asks the user for a word and checks if it is present in a predefined list of words using the 'in' operator."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - In Operator",
+    "exercise_number": 4,
+    "difficulty": "beginner",
+    "exercise": "Use the 'in' operator to check if each vowel (a, e, i, o, u) is present in a given string."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - In Operator",
+    "exercise_number": 5,
+    "difficulty": "beginner",
+    "exercise": "Create a program that checks if a given key exists in a dictionary using the 'in' operator."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - In Operator",
+    "exercise_number": 6,
+    "difficulty": "intermediate",
+    "exercise": "Write a function that uses the 'in' operator to count how many elements from one list are present in another list."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - In Operator",
+    "exercise_number": 7,
+    "difficulty": "intermediate",
+    "exercise": "Create a program that checks if all characters in a string are present in another string using the 'in' operator."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - In Operator",
+    "exercise_number": 8,
+    "difficulty": "intermediate",
+    "exercise": "Use the 'in' operator to filter out elements from one list that are also present in another list."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - In Operator",
+    "exercise_number": 9,
+    "difficulty": "intermediate",
+    "exercise": "Write a program that uses the 'in' operator to check if a given substring is present in multiple strings from a list."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - In Operator",
+    "exercise_number": 10,
+    "difficulty": "intermediate",
+    "exercise": "Create a function that uses the 'in' operator to validate if a password contains at least one uppercase letter, one lowercase letter, and one digit."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - In Operator",
+    "exercise_number": 11,
+    "difficulty": "advanced",
+    "exercise": "Implement a simplified spell checker that uses the 'in' operator to check if words from a text are present in a dictionary of valid words."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - In Operator",
+    "exercise_number": 12,
+    "difficulty": "advanced",
+    "exercise": "Write a program that uses the 'in' operator to detect if a list contains any duplicates."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - In Operator",
+    "exercise_number": 13,
+    "difficulty": "advanced",
+    "exercise": "Create a function that uses the 'in' operator to find all common elements in three different lists without using sets."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - In Operator",
+    "exercise_number": 14,
+    "difficulty": "advanced",
+    "exercise": "Implement a program that checks if a given path (string) is a subdirectory of any paths in a list of directories using the 'in' operator."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - In Operator",
+    "exercise_number": 15,
+    "difficulty": "advanced",
+    "exercise": "Write a function that uses the 'in' operator to check if two strings are anagrams of each other (contain the same characters, regardless of order)."
+  }
+] 

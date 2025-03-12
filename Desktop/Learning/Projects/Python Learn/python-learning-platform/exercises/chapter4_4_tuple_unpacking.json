@@ -1,0 +1,212 @@
+[
+  {
+    "notebook": "4_TupleUnpacking.ipynb",
+    "chapter_index": "Tuple Unpacking",
+    "exercise_number": 1,
+    "difficulty": "beginner",
+    "exercise": "Create a list of tuples where each tuple contains a student's name and their score. Then loop through the list and print each student's name and score on a separate line."
+  },
+  {
+    "notebook": "4_TupleUnpacking.ipynb",
+    "chapter_index": "Tuple Unpacking",
+    "exercise_number": 2,
+    "difficulty": "beginner",
+    "exercise": "Given a list of (x, y) coordinate tuples, write a loop that calculates and prints the distance of each point from the origin (0, 0)."
+  },
+  {
+    "notebook": "4_TupleUnpacking.ipynb",
+    "chapter_index": "Tuple Unpacking",
+    "exercise_number": 3,
+    "difficulty": "beginner",
+    "exercise": "Create a list of product tuples (name, price). Write a loop that prints each product with a 15% discount applied."
+  },
+  {
+    "notebook": "4_TupleUnpacking.ipynb",
+    "chapter_index": "Tuple Unpacking",
+    "exercise_number": 4,
+    "difficulty": "beginner",
+    "exercise": "Write a function that takes a person's full name as a single string and returns a tuple of (first_name, last_name). Test it with various names."
+  },
+  {
+    "notebook": "4_TupleUnpacking.ipynb",
+    "chapter_index": "Tuple Unpacking",
+    "exercise_number": 5,
+    "difficulty": "beginner",
+    "exercise": "Create a function that returns the minimum and maximum values from a list as a tuple. Then unpack these values into separate variables."
+  },
+  {
+    "notebook": "4_TupleUnpacking.ipynb",
+    "chapter_index": "Tuple Unpacking",
+    "exercise_number": 6,
+    "difficulty": "beginner",
+    "exercise": "Write a function that calculates both the area and perimeter of a rectangle, returning them as a tuple. Unpack the results when calling the function."
+  },
+  {
+    "notebook": "4_TupleUnpacking.ipynb",
+    "chapter_index": "Tuple Unpacking",
+    "exercise_number": 7,
+    "difficulty": "beginner",
+    "exercise": "Given a list of (city, temperature) tuples, write a function that returns the city with the highest temperature and its value. Unpack the returned tuple."
+  },
+  {
+    "notebook": "4_TupleUnpacking.ipynb",
+    "chapter_index": "Tuple Unpacking",
+    "exercise_number": 8,
+    "difficulty": "beginner",
+    "exercise": "Create a function that divides two numbers and returns both the quotient and remainder as a tuple. Test with different number pairs."
+  },
+  {
+    "notebook": "4_TupleUnpacking.ipynb",
+    "chapter_index": "Tuple Unpacking",
+    "exercise_number": 9,
+    "difficulty": "beginner",
+    "exercise": "Write a function that analyzes a string and returns a tuple containing the count of uppercase letters, lowercase letters, and digits. Test with various strings."
+  },
+  {
+    "notebook": "4_TupleUnpacking.ipynb",
+    "chapter_index": "Tuple Unpacking",
+    "exercise_number": 10,
+    "difficulty": "beginner",
+    "exercise": "Create a function that takes a list of integers and returns both the sum and average as a tuple. Demonstrate unpacking the result."
+  },
+  {
+    "notebook": "4_TupleUnpacking.ipynb",
+    "chapter_index": "Tuple Unpacking",
+    "exercise_number": 11,
+    "difficulty": "intermediate",
+    "exercise": "Write a function that returns the top three highest values from a list. Unpack these values into descriptively named variables."
+  },
+  {
+    "notebook": "4_TupleUnpacking.ipynb",
+    "chapter_index": "Tuple Unpacking",
+    "exercise_number": 12,
+    "difficulty": "intermediate",
+    "exercise": "Create a function that analyzes sales data (list of tuples with product name, units sold, price) and returns the product with the highest revenue along with its revenue amount."
+  },
+  {
+    "notebook": "4_TupleUnpacking.ipynb",
+    "chapter_index": "Tuple Unpacking",
+    "exercise_number": 13,
+    "difficulty": "intermediate",
+    "exercise": "Write a function that returns both the Fibonacci number at position n and at position n-1. Use tuple unpacking to calculate the next Fibonacci number."
+  },
+  {
+    "notebook": "4_TupleUnpacking.ipynb",
+    "chapter_index": "Tuple Unpacking",
+    "exercise_number": 14,
+    "difficulty": "intermediate",
+    "exercise": "Create a function that analyzes a quadratic equation (ax² + bx + c) and returns a tuple with the number of roots and a list of the roots. Handle all possible cases."
+  },
+  {
+    "notebook": "4_TupleUnpacking.ipynb",
+    "chapter_index": "Tuple Unpacking",
+    "exercise_number": 15,
+    "difficulty": "intermediate",
+    "exercise": "Write a function that takes a dictionary and returns the key-value pair with the highest value as a tuple. Unpack this tuple and use the results."
+  },
+  {
+    "notebook": "4_TupleUnpacking.ipynb",
+    "chapter_index": "Tuple Unpacking",
+    "exercise_number": 16,
+    "difficulty": "intermediate",
+    "exercise": "Create a function that analyzes student grades (list of (name, [grades]) tuples) and returns the student with the highest average and their average. Unpack these results."
+  },
+  {
+    "notebook": "4_TupleUnpacking.ipynb",
+    "chapter_index": "Tuple Unpacking",
+    "exercise_number": 17,
+    "difficulty": "intermediate",
+    "exercise": "Write a function that finds both the longest word and its length in a sentence, returning them as a tuple. Demonstrate tuple unpacking with the result."
+  },
+  {
+    "notebook": "4_TupleUnpacking.ipynb",
+    "chapter_index": "Tuple Unpacking",
+    "exercise_number": 18,
+    "difficulty": "intermediate",
+    "exercise": "Create a function to analyze a list of 3D coordinates and return the point closest to the origin along with its distance. Unpack and use these values."
+  },
+  {
+    "notebook": "4_TupleUnpacking.ipynb",
+    "chapter_index": "Tuple Unpacking",
+    "exercise_number": 19,
+    "difficulty": "intermediate",
+    "exercise": "Write a function that takes a list of numbers and returns statistics (mean, median, mode) as a tuple. Unpack the values into descriptive variable names."
+  },
+  {
+    "notebook": "4_TupleUnpacking.ipynb",
+    "chapter_index": "Tuple Unpacking",
+    "exercise_number": 20,
+    "difficulty": "intermediate",
+    "exercise": "Create a function that analyzes time data (hours, minutes, seconds) and converts it to both total seconds and a formatted string. Unpack and use both return values."
+  },
+  {
+    "notebook": "4_TupleUnpacking.ipynb",
+    "chapter_index": "Tuple Unpacking",
+    "exercise_number": 21,
+    "difficulty": "advanced",
+    "exercise": "Write a function that returns a tuple containing three functions: one that adds, one that subtracts, and one that multiplies two numbers. Unpack these functions and use them."
+  },
+  {
+    "notebook": "4_TupleUnpacking.ipynb",
+    "chapter_index": "Tuple Unpacking",
+    "exercise_number": 22,
+    "difficulty": "advanced",
+    "exercise": "Create a function that analyzes weather data (list of daily (temp, humidity, pressure) tuples) and returns the day index with the most extreme weather and its values. Implement tuple unpacking in both the function and when handling its return value."
+  },
+  {
+    "notebook": "4_TupleUnpacking.ipynb",
+    "chapter_index": "Tuple Unpacking",
+    "exercise_number": 23,
+    "difficulty": "advanced",
+    "exercise": "Write a function that performs a bubble sort on a list and returns both the sorted list and the number of swaps performed. Use tuple unpacking in the implementation of the sorting algorithm."
+  },
+  {
+    "notebook": "4_TupleUnpacking.ipynb",
+    "chapter_index": "Tuple Unpacking",
+    "exercise_number": 24,
+    "difficulty": "advanced",
+    "exercise": "Create a function that simulates a simple database query, returning a tuple with (success_boolean, result_data, error_message). Handle all three return values appropriately with unpacking."
+  },
+  {
+    "notebook": "4_TupleUnpacking.ipynb",
+    "chapter_index": "Tuple Unpacking",
+    "exercise_number": 25,
+    "difficulty": "advanced",
+    "exercise": "Write a recursive function to calculate both the nth Fibonacci number and the total number of function calls made. Use tuple unpacking to track and accumulate the call count."
+  },
+  {
+    "notebook": "4_TupleUnpacking.ipynb",
+    "chapter_index": "Tuple Unpacking",
+    "exercise_number": 26,
+    "difficulty": "advanced",
+    "exercise": "Create a function that performs matrix operations (e.g., determinant and inverse) and returns both results as a tuple. Use unpacking to utilize both values in further calculations."
+  },
+  {
+    "notebook": "4_TupleUnpacking.ipynb",
+    "chapter_index": "Tuple Unpacking",
+    "exercise_number": 27,
+    "difficulty": "advanced",
+    "exercise": "Write a function that uses the divmod() built-in function multiple times to convert seconds into days, hours, minutes, and remaining seconds. Return all values and unpack them."
+  },
+  {
+    "notebook": "4_TupleUnpacking.ipynb",
+    "chapter_index": "Tuple Unpacking",
+    "exercise_number": 28,
+    "difficulty": "advanced",
+    "exercise": "Create a function that performs a binary search on a sorted list, returning both the index of the found item (or where it should be inserted) and the number of comparisons made. Use tuple unpacking in the implementation."
+  },
+  {
+    "notebook": "4_TupleUnpacking.ipynb",
+    "chapter_index": "Tuple Unpacking",
+    "exercise_number": 29,
+    "difficulty": "advanced",
+    "exercise": "Write a function that attempts to parse different date formats, returning a tuple with (success_boolean, datetime_object, format_used). Handle the returned tuple appropriately."
+  },
+  {
+    "notebook": "4_TupleUnpacking.ipynb",
+    "chapter_index": "Tuple Unpacking",
+    "exercise_number": 30,
+    "difficulty": "advanced",
+    "exercise": "Create a function that implements the extended Euclidean algorithm, returning the GCD and Bézout coefficients. Use tuple unpacking in both the implementation and when using the return values."
+  }
+] 

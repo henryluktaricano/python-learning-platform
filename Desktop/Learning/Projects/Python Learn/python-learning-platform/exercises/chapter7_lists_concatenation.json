@@ -1,0 +1,142 @@
+[
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Concatenation",
+    "exercise_number": 1,
+    "difficulty": "beginner",
+    "exercise": "list1 = [1, 2, 3]. list2 = [4, 5, 6]. Concatenate these two lists into a new list and print the result."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Concatenation",
+    "exercise_number": 2,
+    "difficulty": "beginner",
+    "exercise": "fruits = ['apple', 'banana']. vegetables = ['carrot', 'spinach']. Combine these into a single list of foods."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Concatenation",
+    "exercise_number": 3,
+    "difficulty": "beginner",
+    "exercise": "first_half = [1, 2, 3, 4, 5]. second_half = [6, 7, 8, 9, 10]. Create a complete list by concatenating these halves."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Concatenation",
+    "exercise_number": 4,
+    "difficulty": "beginner",
+    "exercise": "letters1 = ['a', 'b', 'c']. letters2 = ['d', 'e', 'f']. Concatenate these two lists and print the result."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Concatenation",
+    "exercise_number": 5,
+    "difficulty": "beginner",
+    "exercise": "empty = []. numbers = [1, 2, 3]. What happens when you concatenate an empty list with a non-empty one? Try it."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Concatenation",
+    "exercise_number": 6,
+    "difficulty": "intermediate",
+    "exercise": "part1 = [1, 2, 3]. part2 = [4, 5, 6]. part3 = [7, 8, 9]. Concatenate all three lists into a single list."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Concatenation",
+    "exercise_number": 7,
+    "difficulty": "intermediate",
+    "exercise": "numbers = [1, 2, 3]. Create a new list that repeats 'numbers' three times using the multiplication operator."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Concatenation",
+    "exercise_number": 8,
+    "difficulty": "intermediate",
+    "exercise": "list1 = ['a', 'b']. list2 = [1, 2]. list3 = [True, False]. Concatenate these lists with different data types and print the result."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Concatenation",
+    "exercise_number": 9,
+    "difficulty": "intermediate",
+    "exercise": "original = [1, 2, 3]. Create a new list that has the original list concatenated with itself in reverse order."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Concatenation",
+    "exercise_number": 10,
+    "difficulty": "intermediate",
+    "exercise": "list1 = [1, 2, 3]. single_item = [4]. Concatenate list1 with single_item and print the result."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Concatenation",
+    "exercise_number": 11,
+    "difficulty": "intermediate",
+    "exercise": "words = ['hello', 'world']. chars = ['a', 'b', 'c']. Create a new list by concatenating these lists and then sort the result."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Concatenation",
+    "exercise_number": 12,
+    "difficulty": "intermediate",
+    "exercise": "Start with an empty list and concatenate the lists [1, 2, 3], [4, 5], and [6] to it in sequence. Print after each concatenation."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Concatenation",
+    "exercise_number": 13,
+    "difficulty": "intermediate",
+    "exercise": "Create a list pattern that repeats [1, 2, 3, 4, 5] twice and then [6, 7, 8, 9, 10] once using concatenation."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Concatenation",
+    "exercise_number": 14,
+    "difficulty": "advanced",
+    "exercise": "nested1 = [[1, 2], [3, 4]]. nested2 = [[5, 6], [7, 8]]. Concatenate these nested lists. What is the resulting structure?"
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Concatenation",
+    "exercise_number": 15,
+    "difficulty": "advanced",
+    "exercise": "list_of_lists = [[1, 2], [3, 4], [5, 6]]. Use a loop to create a single flat list containing all numbers using concatenation."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Concatenation",
+    "exercise_number": 16,
+    "difficulty": "advanced",
+    "exercise": "list1 = [1, 2, 3]. list2 = ['a', 'b', 'c']. Create a zipped list where each element is a concatenation of the corresponding elements from list1 and list2."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Concatenation",
+    "exercise_number": 17,
+    "difficulty": "advanced",
+    "exercise": "Create a function that takes any number of lists as arguments and returns a single concatenated list. Test it with various combinations."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Concatenation",
+    "exercise_number": 18,
+    "difficulty": "advanced",
+    "exercise": "starts = ['Mr.', 'Mrs.', 'Dr.']. names = ['Smith', 'Johnson', 'Williams']. Create a list of all possible combinations of starts and names using concatenation."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Concatenation",
+    "exercise_number": 19,
+    "difficulty": "advanced",
+    "exercise": "parts = ['head', 'shoulder', 'knee', 'toe']. Create a new list that contains each part twice in succession using concatenation."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Concatenation",
+    "exercise_number": 20,
+    "difficulty": "advanced",
+    "exercise": "data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]. Use slicing to split the list into three parts and then concatenate them in reverse order."
+  }
+] 

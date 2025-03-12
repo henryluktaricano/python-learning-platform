@@ -1,0 +1,72 @@
+[
+  {
+    "notebook": "2_defKeyword.ipynb",
+    "chapter_index": "Functions - def Keyword",
+    "exercise_number": 1,
+    "difficulty": "beginner",
+    "exercise": "Create a function called 'greeting' that prints 'Hello, world!' when called. Then call this function and observe the output."
+  },
+  {
+    "notebook": "2_defKeyword.ipynb",
+    "chapter_index": "Functions - def Keyword",
+    "exercise_number": 2,
+    "difficulty": "beginner",
+    "exercise": "Create a function called 'return_greeting' that returns the string 'Hello, world!' (instead of printing it). Store the result in a variable and print that variable."
+  },
+  {
+    "notebook": "2_defKeyword.ipynb",
+    "chapter_index": "Functions - def Keyword",
+    "exercise_number": 3,
+    "difficulty": "beginner",
+    "exercise": "Write a function that takes two numbers as parameters, prints their sum, and also returns their sum. Demonstrate the difference between capturing the return value and just calling the function."
+  },
+  {
+    "notebook": "2_defKeyword.ipynb",
+    "chapter_index": "Functions - def Keyword",
+    "exercise_number": 4,
+    "difficulty": "intermediate",
+    "exercise": "Create a function that accepts either strings or numbers. If passed strings, it should concatenate them; if passed numbers, it should add them. Test with both types of inputs."
+  },
+  {
+    "notebook": "2_defKeyword.ipynb",
+    "chapter_index": "Functions - def Keyword",
+    "exercise_number": 5,
+    "difficulty": "intermediate",
+    "exercise": "Write a function that prints the given input if it's a string, but returns the input multiplied by 2 if it's a number. Test with both types."
+  },
+  {
+    "notebook": "2_defKeyword.ipynb",
+    "chapter_index": "Functions - def Keyword",
+    "exercise_number": 6,
+    "difficulty": "intermediate",
+    "exercise": "Create a function that takes two parameters with default values. Make it return the sum of the parameters if both are numbers, or their concatenation if either is a string."
+  },
+  {
+    "notebook": "2_defKeyword.ipynb",
+    "chapter_index": "Functions - def Keyword",
+    "exercise_number": 7,
+    "difficulty": "intermediate",
+    "exercise": "Write a function that calculates the average of a list of numbers. It should print each number as it processes them, and return the final average. Compare just calling the function versus storing its return value."
+  },
+  {
+    "notebook": "2_defKeyword.ipynb",
+    "chapter_index": "Functions - def Keyword",
+    "exercise_number": 8,
+    "difficulty": "advanced",
+    "exercise": "Create a function that takes any number of arguments and returns their sum if all are numbers, or returns their concatenation if any are strings. If other types are included, it should print a message but not return anything."
+  },
+  {
+    "notebook": "2_defKeyword.ipynb",
+    "chapter_index": "Functions - def Keyword",
+    "exercise_number": 9,
+    "difficulty": "advanced",
+    "exercise": "Write a function that attempts to convert its input to an integer and returns it. If the conversion fails, it should print an error message and return None. Test with various inputs."
+  },
+  {
+    "notebook": "2_defKeyword.ipynb",
+    "chapter_index": "Functions - def Keyword",
+    "exercise_number": 10,
+    "difficulty": "advanced",
+    "exercise": "Create a calculator function that takes an operator ('+', '-', '*', '/') and two values. It should perform the operation and return the result. However, it should print an error message instead of returning anything if division by zero is attempted or an invalid operator is provided."
+  }
+] 

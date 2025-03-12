@@ -1,0 +1,72 @@
+[
+  {
+    "notebook": "9_dictionaries.ipynb",
+    "chapter_index": "Dictionaries - Accessing Values",
+    "exercise_number": 1,
+    "difficulty": "beginner",
+    "exercise": "my_dict = {'name': 'John', 'age': 30, 'city': 'New York'}. Access and print the value associated with the key 'name'."
+  },
+  {
+    "notebook": "9_dictionaries.ipynb",
+    "chapter_index": "Dictionaries - Accessing Values",
+    "exercise_number": 2,
+    "difficulty": "beginner",
+    "exercise": "fruit_prices = {'apple': 1.99, 'banana': 0.99, 'orange': 1.49}. Print the price of an orange from this dictionary."
+  },
+  {
+    "notebook": "9_dictionaries.ipynb",
+    "chapter_index": "Dictionaries - Accessing Values",
+    "exercise_number": 3,
+    "difficulty": "beginner",
+    "exercise": "user = {'username': 'jsmith', 'email': 'john@example.com', 'active': True}. Access and print the value of the 'active' key."
+  },
+  {
+    "notebook": "9_dictionaries.ipynb",
+    "chapter_index": "Dictionaries - Accessing Values",
+    "exercise_number": 4,
+    "difficulty": "beginner",
+    "exercise": "capitals = {'USA': 'Washington DC', 'France': 'Paris', 'Italy': 'Rome'}. Print the capital of France."
+  },
+  {
+    "notebook": "9_dictionaries.ipynb",
+    "chapter_index": "Dictionaries - Accessing Values",
+    "exercise_number": 5,
+    "difficulty": "intermediate",
+    "exercise": "scores = {'Math': 90, 'English': 85, 'Science': 95}. Calculate and print the average score by accessing all values."
+  },
+  {
+    "notebook": "9_dictionaries.ipynb",
+    "chapter_index": "Dictionaries - Accessing Values",
+    "exercise_number": 6,
+    "difficulty": "intermediate",
+    "exercise": "employee = {'id': 12345, 'name': 'Alice', 'department': 'Engineering', 'salary': 75000}. Access the 'salary' key and calculate what a 10% raise would be. Print both the current salary and the raised amount."
+  },
+  {
+    "notebook": "9_dictionaries.ipynb",
+    "chapter_index": "Dictionaries - Accessing Values",
+    "exercise_number": 7,
+    "difficulty": "intermediate",
+    "exercise": "colors = {'red': '#FF0000', 'green': '#00FF00', 'blue': '#0000FF'}. Try to access a key 'yellow' that doesn't exist. What happens? Now, use the get() method to safely access 'yellow' with a default value of '#FFFF00'."
+  },
+  {
+    "notebook": "9_dictionaries.ipynb",
+    "chapter_index": "Dictionaries - Accessing Values",
+    "exercise_number": 8,
+    "difficulty": "intermediate",
+    "exercise": "student = {'name': 'Bob', 'grades': {'math': 85, 'english': 90, 'history': 78}}. Try to directly access the math grade. What happens? Fix your approach to correctly access the math grade."
+  },
+  {
+    "notebook": "9_dictionaries.ipynb",
+    "chapter_index": "Dictionaries - Accessing Values",
+    "exercise_number": 9,
+    "difficulty": "advanced",
+    "exercise": "config = {'server': {'host': 'localhost', 'port': 3306}, 'database': 'mydb', 'timeout': 100}. Write code to print a connection string in the format 'host:port/database' using the values from the dictionary."
+  },
+  {
+    "notebook": "9_dictionaries.ipynb",
+    "chapter_index": "Dictionaries - Accessing Values",
+    "exercise_number": 10,
+    "difficulty": "advanced",
+    "exercise": "items = {'a': 10, 'b': 5, 'c': 15, 'd': 8}. Access all values and find the maximum value and its key. Print both the key and the maximum value."
+  }
+] 

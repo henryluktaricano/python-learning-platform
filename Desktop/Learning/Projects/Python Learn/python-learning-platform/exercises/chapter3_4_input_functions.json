@@ -1,0 +1,107 @@
+[
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Input Functions",
+    "exercise_number": 1,
+    "difficulty": "beginner",
+    "exercise": "Write a program that asks the user for their name using the input() function and then greets them by name."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Input Functions",
+    "exercise_number": 2,
+    "difficulty": "beginner",
+    "exercise": "Create a program that uses input() to ask the user for two numbers and then prints their sum."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Input Functions",
+    "exercise_number": 3,
+    "difficulty": "beginner",
+    "exercise": "Write a program that asks the user for their age using input() and tells them how old they will be in 10 years."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Input Functions",
+    "exercise_number": 4,
+    "difficulty": "beginner",
+    "exercise": "Create a simple program that uses input() to ask the user for a temperature in Celsius and converts it to Fahrenheit."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Input Functions",
+    "exercise_number": 5,
+    "difficulty": "beginner",
+    "exercise": "Write a program that uses input() to ask the user for a string and then prints the length of that string."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Input Functions",
+    "exercise_number": 6,
+    "difficulty": "intermediate",
+    "exercise": "Create a program that asks the user for their favorite 5 foods using input() in a loop and stores them in a list."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Input Functions",
+    "exercise_number": 7,
+    "difficulty": "intermediate",
+    "exercise": "Write a program that uses input() to build a dictionary of student names and their scores."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Input Functions",
+    "exercise_number": 8,
+    "difficulty": "intermediate",
+    "exercise": "Create a simple calculator that takes user input for two numbers and an operation (+, -, *, /) and performs the calculation."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Input Functions",
+    "exercise_number": 9,
+    "difficulty": "intermediate",
+    "exercise": "Write a program that keeps asking for user input until they enter 'quit', and then prints all the inputs they provided."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Input Functions",
+    "exercise_number": 10,
+    "difficulty": "intermediate",
+    "exercise": "Create a program that asks the user for a password and validates it against certain criteria (e.g., minimum length, contains numbers)."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Input Functions",
+    "exercise_number": 11,
+    "difficulty": "advanced",
+    "exercise": "Write a program that asks the user for a comma-separated list of numbers, converts it to a list of integers, and calculates statistics (sum, average, max, min)."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Input Functions",
+    "exercise_number": 12,
+    "difficulty": "advanced",
+    "exercise": "Create a text-based menu system that uses input() to allow users to choose different operations from a list of options."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Input Functions",
+    "exercise_number": 13,
+    "difficulty": "advanced",
+    "exercise": "Implement a simple quiz game that asks questions, takes user answers via input(), and keeps track of the score."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Input Functions",
+    "exercise_number": 14,
+    "difficulty": "advanced",
+    "exercise": "Write a program that simulates a simple ATM, allowing users to check balance, deposit, or withdraw money using input() for interactions."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Input Functions",
+    "exercise_number": 15,
+    "difficulty": "advanced",
+    "exercise": "Create a program that allows users to build and manage a to-do list using input() commands (add, remove, list, quit)."
+  }
+] 

@@ -1,0 +1,72 @@
+[
+  {
+    "notebook": "10_dictionary_methods.ipynb",
+    "chapter_index": "Dictionary Methods - keys()",
+    "exercise_number": 1,
+    "difficulty": "beginner",
+    "exercise": "my_dict = {'a': 1, 'b': 2, 'c': 3}. Use the keys() method to get all the keys and print them."
+  },
+  {
+    "notebook": "10_dictionary_methods.ipynb",
+    "chapter_index": "Dictionary Methods - keys()",
+    "exercise_number": 2,
+    "difficulty": "beginner",
+    "exercise": "user_info = {'name': 'John', 'age': 30, 'city': 'New York'}. Use the keys() method to get all the keys, convert them to a list, and print the list."
+  },
+  {
+    "notebook": "10_dictionary_methods.ipynb",
+    "chapter_index": "Dictionary Methods - keys()",
+    "exercise_number": 3,
+    "difficulty": "beginner",
+    "exercise": "empty_dict = {}. Apply the keys() method to this empty dictionary and print the result. What do you observe?"
+  },
+  {
+    "notebook": "10_dictionary_methods.ipynb",
+    "chapter_index": "Dictionary Methods - keys()",
+    "exercise_number": 4,
+    "difficulty": "beginner",
+    "exercise": "colors = {'red': '#FF0000', 'green': '#00FF00', 'blue': '#0000FF'}. Print the data type of the object returned by colors.keys()."
+  },
+  {
+    "notebook": "10_dictionary_methods.ipynb",
+    "chapter_index": "Dictionary Methods - keys()",
+    "exercise_number": 5,
+    "difficulty": "intermediate",
+    "exercise": "scores = {'math': 90, 'english': 85, 'science': 95}. Use the keys() method to get all subjects (keys), then use a for loop to print each subject name."
+  },
+  {
+    "notebook": "10_dictionary_methods.ipynb",
+    "chapter_index": "Dictionary Methods - keys()",
+    "exercise_number": 6,
+    "difficulty": "intermediate",
+    "exercise": "student = {'name': 'Alice', 'grade': 'A', 'courses': ['Math', 'Science']}. Check if 'grade' is a key in the dictionary using the 'in' operator with the keys() method. Print the result."
+  },
+  {
+    "notebook": "10_dictionary_methods.ipynb",
+    "chapter_index": "Dictionary Methods - keys()",
+    "exercise_number": 7,
+    "difficulty": "intermediate",
+    "exercise": "menu = {'breakfast': {'eggs': 5.99, 'pancakes': 7.99}, 'lunch': {'sandwich': 8.99, 'soup': 4.99}}. Get all the main meal categories using the keys() method. Then for each category, get and print the items available (the inner keys)."
+  },
+  {
+    "notebook": "10_dictionary_methods.ipynb",
+    "chapter_index": "Dictionary Methods - keys()",
+    "exercise_number": 8,
+    "difficulty": "intermediate",
+    "exercise": "inventory = {'apples': 50, 'bananas': 30, 'oranges': 40}. After using the keys() method to get all fruit names, add a new fruit 'grapes' to the inventory. Then print the keys again. What do you observe about the keys() view?"
+  },
+  {
+    "notebook": "10_dictionary_methods.ipynb",
+    "chapter_index": "Dictionary Methods - keys()",
+    "exercise_number": 9,
+    "difficulty": "advanced",
+    "exercise": "Create a function that takes two dictionaries as input and returns a list of keys that appear in both dictionaries, using the keys() method."
+  },
+  {
+    "notebook": "10_dictionary_methods.ipynb",
+    "chapter_index": "Dictionary Methods - keys()",
+    "exercise_number": 10,
+    "difficulty": "advanced",
+    "exercise": "data = {'user1': {'name': 'Alice', 'active': True}, 'user2': {'name': 'Bob', 'active': False}, 'user3': {'name': 'Charlie', 'active': True}}. Use the keys() method to get all user IDs, then create a new dictionary containing only the active users (where the 'active' value is True)."
+  }
+] 

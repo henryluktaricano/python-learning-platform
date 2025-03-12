@@ -1,0 +1,72 @@
+[
+  {
+    "notebook": "9_dictionaries.ipynb",
+    "chapter_index": "Dictionaries - Working with Values",
+    "exercise_number": 1,
+    "difficulty": "beginner",
+    "exercise": "student = {'name': 'Alex', 'grades': [85, 90, 78, 92]}. Calculate and print the average of Alex's grades using the values in the dictionary."
+  },
+  {
+    "notebook": "9_dictionaries.ipynb",
+    "chapter_index": "Dictionaries - Working with Values",
+    "exercise_number": 2,
+    "difficulty": "beginner",
+    "exercise": "person = {'name': 'Sarah', 'hobbies': ['reading', 'cycling', 'painting']}. Add a new hobby 'cooking' to Sarah's list of hobbies. Print the updated dictionary."
+  },
+  {
+    "notebook": "9_dictionaries.ipynb",
+    "chapter_index": "Dictionaries - Working with Values",
+    "exercise_number": 3,
+    "difficulty": "beginner",
+    "exercise": "data = {'values': [10, 20, 30, 40, 50]}. Access the 'values' list and calculate the sum of all elements. Print the result."
+  },
+  {
+    "notebook": "9_dictionaries.ipynb",
+    "chapter_index": "Dictionaries - Working with Values",
+    "exercise_number": 4,
+    "difficulty": "beginner",
+    "exercise": "config = {'settings': {'theme': 'dark', 'font_size': 12}}. Change the font size to 14 in the nested settings dictionary. Print the updated config dictionary."
+  },
+  {
+    "notebook": "9_dictionaries.ipynb",
+    "chapter_index": "Dictionaries - Working with Values",
+    "exercise_number": 5,
+    "difficulty": "intermediate",
+    "exercise": "scores = {'math': [90, 85, 92], 'science': [88, 89, 94], 'history': [76, 80, 85]}. Calculate and print the highest score for each subject."
+  },
+  {
+    "notebook": "9_dictionaries.ipynb",
+    "chapter_index": "Dictionaries - Working with Values",
+    "exercise_number": 6,
+    "difficulty": "intermediate",
+    "exercise": "inventory = {'apples': {'count': 50, 'price': 0.99}, 'bananas': {'count': 30, 'price': 0.59}}. Calculate the total value of each fruit (count * price) and the total inventory value. Print both."
+  },
+  {
+    "notebook": "9_dictionaries.ipynb",
+    "chapter_index": "Dictionaries - Working with Values",
+    "exercise_number": 7,
+    "difficulty": "intermediate",
+    "exercise": "user = {'id': 101, 'profile': {'name': 'John', 'address': {'city': 'New York', 'zipcode': '10001'}}}. Update John's city to 'Boston' and zipcode to '02108'. Print the updated user dictionary."
+  },
+  {
+    "notebook": "9_dictionaries.ipynb",
+    "chapter_index": "Dictionaries - Working with Values",
+    "exercise_number": 8,
+    "difficulty": "intermediate",
+    "exercise": "employees = {'department1': ['Alice', 'Bob'], 'department2': ['Charlie', 'David']}. Add a new employee 'Eve' to department1 and 'Frank' to department2. Print the updated dictionary."
+  },
+  {
+    "notebook": "9_dictionaries.ipynb",
+    "chapter_index": "Dictionaries - Working with Values",
+    "exercise_number": 9,
+    "difficulty": "advanced",
+    "exercise": "shopping_cart = {'items': [{'name': 'laptop', 'price': 999.99, 'quantity': 1}, {'name': 'mouse', 'price': 25.50, 'quantity': 2}]}. Calculate the total cost of each item (price * quantity) and the total cost of all items in the cart. Print the results."
+  },
+  {
+    "notebook": "9_dictionaries.ipynb",
+    "chapter_index": "Dictionaries - Working with Values",
+    "exercise_number": 10,
+    "difficulty": "advanced",
+    "exercise": "teams = {'team1': {'players': ['p1', 'p2', 'p3'], 'wins': 5, 'losses': 3}, 'team2': {'players': ['p4', 'p5', 'p6'], 'wins': 3, 'losses': 5}}. Add a new key 'win_percentage' to each team with the value calculated as wins/(wins+losses). Print the updated dictionary."
+  }
+] 

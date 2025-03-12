@@ -1,0 +1,72 @@
+[
+  {
+    "notebook": "1_Methods_&_PythonDocumentation.ipynb",
+    "chapter_index": "Methods and Python Documentation",
+    "exercise_number": 1,
+    "difficulty": "beginner",
+    "exercise": "Use the help() function to view the documentation for the list data type. Write down three methods that lists have."
+  },
+  {
+    "notebook": "1_Methods_&_PythonDocumentation.ipynb",
+    "chapter_index": "Methods and Python Documentation",
+    "exercise_number": 2,
+    "difficulty": "beginner",
+    "exercise": "Use help() to examine the documentation for the string method .upper(). What does this method do, according to the documentation?"
+  },
+  {
+    "notebook": "1_Methods_&_PythonDocumentation.ipynb",
+    "chapter_index": "Methods and Python Documentation",
+    "exercise_number": 3,
+    "difficulty": "beginner",
+    "exercise": "Create a dictionary and use help() to learn about the .keys() method. Describe what this method returns."
+  },
+  {
+    "notebook": "1_Methods_&_PythonDocumentation.ipynb",
+    "chapter_index": "Methods and Python Documentation",
+    "exercise_number": 4,
+    "difficulty": "intermediate",
+    "exercise": "Use help() to compare the documentation for list methods .append() and .extend(). Describe the key difference between these methods."
+  },
+  {
+    "notebook": "1_Methods_&_PythonDocumentation.ipynb",
+    "chapter_index": "Methods and Python Documentation",
+    "exercise_number": 5,
+    "difficulty": "intermediate",
+    "exercise": "Examine the documentation for the string method .find() using help(). Then write a small program that uses this method according to the documentation."
+  },
+  {
+    "notebook": "1_Methods_&_PythonDocumentation.ipynb",
+    "chapter_index": "Methods and Python Documentation",
+    "exercise_number": 6,
+    "difficulty": "intermediate",
+    "exercise": "Use help() to learn about the range() function. Based on the documentation, create a range that starts at 5, ends before 15, and increments by 2."
+  },
+  {
+    "notebook": "1_Methods_&_PythonDocumentation.ipynb",
+    "chapter_index": "Methods and Python Documentation",
+    "exercise_number": 7,
+    "difficulty": "intermediate",
+    "exercise": "Look up the documentation for the string method .join() using help(). Then use this method to join a list of words into a single sentence."
+  },
+  {
+    "notebook": "1_Methods_&_PythonDocumentation.ipynb",
+    "chapter_index": "Methods and Python Documentation",
+    "exercise_number": 8,
+    "difficulty": "advanced",
+    "exercise": "Use help() to explore the random module (after importing it). Find a method that generates random integers and use it in a simple program."
+  },
+  {
+    "notebook": "1_Methods_&_PythonDocumentation.ipynb",
+    "chapter_index": "Methods and Python Documentation",
+    "exercise_number": 9,
+    "difficulty": "advanced",
+    "exercise": "Examine the documentation for the string method .format() using help(). Create an example that demonstrates placeholder replacement with named placeholders."
+  },
+  {
+    "notebook": "1_Methods_&_PythonDocumentation.ipynb",
+    "chapter_index": "Methods and Python Documentation",
+    "exercise_number": 10,
+    "difficulty": "advanced",
+    "exercise": "Use help() to find a dictionary method that allows you to retrieve a value with a default fallback if the key doesn't exist. Write an example demonstrating this method."
+  }
+] 

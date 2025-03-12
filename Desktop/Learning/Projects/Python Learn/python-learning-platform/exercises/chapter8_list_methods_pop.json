@@ -1,0 +1,142 @@
+[
+  {
+    "notebook": "8_list_methods.ipynb",
+    "chapter_index": "List pop() Method",
+    "exercise_number": 1,
+    "difficulty": "beginner",
+    "exercise": "numbers = [1, 2, 3, 4]. Use the pop() method to remove the last element. Print both the removed element and the updated list."
+  },
+  {
+    "notebook": "8_list_methods.ipynb",
+    "chapter_index": "List pop() Method",
+    "exercise_number": 2,
+    "difficulty": "beginner",
+    "exercise": "fruits = ['apple', 'banana', 'orange']. Use pop() to remove and store the last fruit in a variable called 'removed_fruit'. Print the variable and the updated list."
+  },
+  {
+    "notebook": "8_list_methods.ipynb",
+    "chapter_index": "List pop() Method",
+    "exercise_number": 3,
+    "difficulty": "beginner",
+    "exercise": "colors = ['red', 'green', 'blue']. Use pop(0) to remove the first color. Print both the removed color and the updated list."
+  },
+  {
+    "notebook": "8_list_methods.ipynb",
+    "chapter_index": "List pop() Method",
+    "exercise_number": 4,
+    "difficulty": "beginner",
+    "exercise": "stack = ['task1', 'task2', 'task3']. Use pop() to simulate completing the most recent task. Print the completed task and the remaining tasks."
+  },
+  {
+    "notebook": "8_list_methods.ipynb",
+    "chapter_index": "List pop() Method",
+    "exercise_number": 5,
+    "difficulty": "beginner",
+    "exercise": "letters = ['a', 'b', 'c', 'd']. Use pop(2) to remove the third element. Print the removed letter and the updated list."
+  },
+  {
+    "notebook": "8_list_methods.ipynb",
+    "chapter_index": "List pop() Method",
+    "exercise_number": 6,
+    "difficulty": "beginner",
+    "exercise": "queue = ['person1', 'person2', 'person3']. Use pop(0) to simulate serving the first person in line. Print who was served and who remains in the queue."
+  },
+  {
+    "notebook": "8_list_methods.ipynb",
+    "chapter_index": "List pop() Method",
+    "exercise_number": 7,
+    "difficulty": "beginner",
+    "exercise": "mixed_data = [10, 'hello', True, 3.14]. Use pop() to remove the last item. Print the removed item and the updated list."
+  },
+  {
+    "notebook": "8_list_methods.ipynb",
+    "chapter_index": "List pop() Method",
+    "exercise_number": 8,
+    "difficulty": "intermediate",
+    "exercise": "numbers = [1, 2, 3, 4, 5]. Use pop() to remove and store the last number. Then use pop(1) to remove the second number. Add these two numbers and print the result along with the updated list."
+  },
+  {
+    "notebook": "8_list_methods.ipynb",
+    "chapter_index": "List pop() Method",
+    "exercise_number": 9,
+    "difficulty": "intermediate",
+    "exercise": "words = ['hello', 'world', 'python', 'programming']. Use pop() twice to remove the last two words. Print the removed words in reverse order of removal and the updated list."
+  },
+  {
+    "notebook": "8_list_methods.ipynb",
+    "chapter_index": "List pop() Method",
+    "exercise_number": 10,
+    "difficulty": "intermediate",
+    "exercise": "data = [10, 20, 30, 40, 50]. Use pop() to remove the last element, then use pop(-1) to remove what is now the last element. Print both removed values and the final list."
+  },
+  {
+    "notebook": "8_list_methods.ipynb",
+    "chapter_index": "List pop() Method",
+    "exercise_number": 11,
+    "difficulty": "intermediate",
+    "exercise": "items = ['pen', 'pencil', 'paper', 'eraser']. Create a new list called 'selected_items' that contains the items at positions 1 and 2, removed using pop(). Print both lists."
+  },
+  {
+    "notebook": "8_list_methods.ipynb",
+    "chapter_index": "List pop() Method",
+    "exercise_number": 12,
+    "difficulty": "intermediate",
+    "exercise": "values = [10, 20, 30, 40, 50]. Use pop() to remove elements until the list has only two items left. Print each removed value and the final list."
+  },
+  {
+    "notebook": "8_list_methods.ipynb",
+    "chapter_index": "List pop() Method",
+    "exercise_number": 13,
+    "difficulty": "intermediate",
+    "exercise": "prices = [9.99, 19.99, 29.99, 39.99]. Use pop() to remove the highest price, and pop(0) to remove the lowest price. Calculate the average of the remaining prices and print it."
+  },
+  {
+    "notebook": "8_list_methods.ipynb",
+    "chapter_index": "List pop() Method",
+    "exercise_number": 14,
+    "difficulty": "intermediate",
+    "exercise": "coordinates = [(1, 2), (3, 4), (5, 6)]. Use pop(1) to remove the middle coordinate. Print the x and y values of the removed coordinate separately."
+  },
+  {
+    "notebook": "8_list_methods.ipynb",
+    "chapter_index": "List pop() Method",
+    "exercise_number": 15,
+    "difficulty": "advanced",
+    "exercise": "matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]. Use pop() to remove the last row. Then use pop(0) on the matrix to remove the first row. Print the removed rows and the remaining matrix."
+  },
+  {
+    "notebook": "8_list_methods.ipynb",
+    "chapter_index": "List pop() Method",
+    "exercise_number": 16,
+    "difficulty": "advanced",
+    "exercise": "nested = [[1, 2], [3, 4], [5, 6]]. Use pop(1) to remove the middle nested list. Then use pop() on the removed list to get its last element. Print the value and the updated nested list."
+  },
+  {
+    "notebook": "8_list_methods.ipynb",
+    "chapter_index": "List pop() Method",
+    "exercise_number": 17,
+    "difficulty": "advanced",
+    "exercise": "records = [{'name': 'Alice', 'age': 25}, {'name': 'Bob', 'age': 30}]. Use pop() to remove the last record. Print the name of the removed person and the updated list."
+  },
+  {
+    "notebook": "8_list_methods.ipynb",
+    "chapter_index": "List pop() Method",
+    "exercise_number": 18,
+    "difficulty": "advanced",
+    "exercise": "data = [10, [20, 30], 40]. Use pop(1) to remove the nested list. Then use pop(0) on this nested list to remove its first element. Print the removed element and both modified lists."
+  },
+  {
+    "notebook": "8_list_methods.ipynb",
+    "chapter_index": "List pop() Method",
+    "exercise_number": 19,
+    "difficulty": "advanced",
+    "exercise": "mixed = ['a', 1, 'b', 2, 'c', 3]. Create a new list of only numbers by using pop() repeatedly to remove all elements that are strings. Print both the new list of numbers and what remains of the original list."
+  },
+  {
+    "notebook": "8_list_methods.ipynb",
+    "chapter_index": "List pop() Method",
+    "exercise_number": 20,
+    "difficulty": "advanced",
+    "exercise": "structure = [['a', 'b'], [1, 2], [True, False]]. Use pop() to remove the last sublist. Then use pop(0) to remove the first sublist. Create a new flattened list containing all elements from the removed sublists. Print the new list and the updated structure."
+  }
+] 

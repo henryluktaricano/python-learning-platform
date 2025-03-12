@@ -1,0 +1,72 @@
+[
+  {
+    "notebook": "3_functionsWlogic.ipynb",
+    "chapter_index": "Functions with Logic",
+    "exercise_number": 1,
+    "difficulty": "beginner",
+    "exercise": "Write a function called 'is_divisible' that takes two numbers and returns True if the first number is divisible by the second, and False otherwise."
+  },
+  {
+    "notebook": "3_functionsWlogic.ipynb",
+    "chapter_index": "Functions with Logic",
+    "exercise_number": 2,
+    "difficulty": "beginner",
+    "exercise": "Create a function that checks if a number is within a given range (inclusive). Return True if it is and False if it's not."
+  },
+  {
+    "notebook": "3_functionsWlogic.ipynb",
+    "chapter_index": "Functions with Logic",
+    "exercise_number": 3,
+    "difficulty": "intermediate",
+    "exercise": "Write a function that returns True if a list contains any duplicate values, and False if all values are unique. Test it with various lists."
+  },
+  {
+    "notebook": "3_functionsWlogic.ipynb",
+    "chapter_index": "Functions with Logic",
+    "exercise_number": 4,
+    "difficulty": "intermediate",
+    "exercise": "Create a function that checks if a string contains at least one uppercase letter, one lowercase letter, and one digit. Return True if these conditions are met, False otherwise."
+  },
+  {
+    "notebook": "3_functionsWlogic.ipynb",
+    "chapter_index": "Functions with Logic",
+    "exercise_number": 5,
+    "difficulty": "intermediate",
+    "exercise": "Identify and fix the logical error in this function that's supposed to return True if any string in a list has more than 5 characters: def check_long_strings(strings): for s in strings: if len(s) > 5: return True else: return False"
+  },
+  {
+    "notebook": "3_functionsWlogic.ipynb",
+    "chapter_index": "Functions with Logic",
+    "exercise_number": 6,
+    "difficulty": "intermediate",
+    "exercise": "Write a function that collects all palindromes (words that read the same backward as forward) from a list of strings and returns them in a new list."
+  },
+  {
+    "notebook": "3_functionsWlogic.ipynb",
+    "chapter_index": "Functions with Logic",
+    "exercise_number": 7,
+    "difficulty": "advanced",
+    "exercise": "Fix the logic in this function intended to find prime numbers in a list: def find_primes(numbers): primes = [] for num in numbers: if num > 1: for i in range(2, num): if (num % i) == 0: break else: primes.append(num) return primes"
+  },
+  {
+    "notebook": "3_functionsWlogic.ipynb",
+    "chapter_index": "Functions with Logic",
+    "exercise_number": 8,
+    "difficulty": "advanced",
+    "exercise": "Write a function that analyzes a list of numbers and returns a dictionary containing three keys: 'evens' (a list of even numbers), 'odds' (a list of odd numbers), and 'prime' (a list of prime numbers)."
+  },
+  {
+    "notebook": "3_functionsWlogic.ipynb",
+    "chapter_index": "Functions with Logic",
+    "exercise_number": 9,
+    "difficulty": "advanced",
+    "exercise": "Create a function that checks if a list of strings contains any anagrams (words made from rearranging the letters of another word). Return True if anagrams exist and False otherwise."
+  },
+  {
+    "notebook": "3_functionsWlogic.ipynb",
+    "chapter_index": "Functions with Logic",
+    "exercise_number": 10,
+    "difficulty": "advanced",
+    "exercise": "Write a function that validates a sudoku board (represented as a 9x9 list of lists). It should check if each row, column, and 3x3 box contains all digits 1-9 without repetition, returning True for valid boards and False otherwise."
+  }
+] 

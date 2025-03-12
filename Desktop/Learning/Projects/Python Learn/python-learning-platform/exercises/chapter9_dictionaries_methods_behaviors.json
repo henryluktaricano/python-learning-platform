@@ -1,0 +1,37 @@
+[
+  {
+    "notebook": "9_dictionaries.ipynb",
+    "chapter_index": "Dictionaries - Methods and Behaviors",
+    "exercise_number": 1,
+    "difficulty": "intermediate",
+    "exercise": "original = {'a': [1, 2, 3], 'b': 'hello'}. Create a reference to the original dictionary called reference and modify the list in 'a' by appending 4. Print both dictionaries to demonstrate they reference the same data."
+  },
+  {
+    "notebook": "9_dictionaries.ipynb",
+    "chapter_index": "Dictionaries - Methods and Behaviors",
+    "exercise_number": 2,
+    "difficulty": "intermediate",
+    "exercise": "menu = {'appetizers': ['salad', 'soup'], 'entrees': ['steak', 'chicken', 'fish']}. Store the 'entrees' list in a separate variable. Use this variable to modify the list by adding 'vegetarian pasta'. Print the original menu to show the change is reflected."
+  },
+  {
+    "notebook": "9_dictionaries.ipynb",
+    "chapter_index": "Dictionaries - Methods and Behaviors",
+    "exercise_number": 3,
+    "difficulty": "intermediate",
+    "exercise": "student = {'name': 'Emma', 'scores': [90, 85, 92]}. Create a copy of the scores list, reverse it, and print both the copy and the original dictionary to show they are not linked."
+  },
+  {
+    "notebook": "9_dictionaries.ipynb",
+    "chapter_index": "Dictionaries - Methods and Behaviors",
+    "exercise_number": 4,
+    "difficulty": "advanced",
+    "exercise": "nested = {'outer_key': {'inner_key': [1, 2, 3]}}. Access the inner list, store it in a variable, sort it using the sort() method, and then print the nested dictionary to show the change is reflected in the original dictionary."
+  },
+  {
+    "notebook": "9_dictionaries.ipynb",
+    "chapter_index": "Dictionaries - Methods and Behaviors",
+    "exercise_number": 5,
+    "difficulty": "advanced",
+    "exercise": "data = {'names': ['Alice', 'Bob', 'Charlie'], 'ages': [25, 30, 22]}. Create a new list from the 'names' list, modify this new list by appending 'David', and then append this modified list back to the dictionary under the key 'all_names'. Print the updated dictionary."
+  }
+] 

@@ -1,0 +1,37 @@
+[
+  {
+    "notebook": "9_dictionaries.ipynb",
+    "chapter_index": "Dictionaries - Method Notes",
+    "exercise_number": 1,
+    "difficulty": "intermediate",
+    "exercise": "my_dict = {'items': [3, 1, 4, 2]}. Attempt to store the result of my_dict['items'].sort() in a variable called sorted_result. Print the value of sorted_result and explain what happened. Then print the updated my_dict to see the effect."
+  },
+  {
+    "notebook": "9_dictionaries.ipynb",
+    "chapter_index": "Dictionaries - Method Notes",
+    "exercise_number": 2,
+    "difficulty": "intermediate",
+    "exercise": "data = {'numbers': [5, 4, 3, 2, 1]}. Try to store the result of data['numbers'].reverse() in a variable. Print this variable and explain its value. Then print the data dictionary to see what happened to the original list."
+  },
+  {
+    "notebook": "9_dictionaries.ipynb",
+    "chapter_index": "Dictionaries - Method Notes",
+    "exercise_number": 3,
+    "difficulty": "intermediate",
+    "exercise": "user = {'hobbies': ['reading', 'running']}. Try to append 'cooking' to the hobbies list and store the result in a variable called result. Print result and explain what it contains. Then print the updated user dictionary."
+  },
+  {
+    "notebook": "9_dictionaries.ipynb",
+    "chapter_index": "Dictionaries - Method Notes",
+    "exercise_number": 4,
+    "difficulty": "advanced",
+    "exercise": "values = {'sequence': [10, 20, 30, 40, 50]}. Try to create a chain of operations: result = values['sequence'].append(60).append(70). Explain why this doesn't work and fix the approach to correctly add both 60 and 70 to the list."
+  },
+  {
+    "notebook": "9_dictionaries.ipynb",
+    "chapter_index": "Dictionaries - Method Notes",
+    "exercise_number": 5,
+    "difficulty": "advanced",
+    "exercise": "nested = {'data': [1, 2, 3, [4, 5]]}. Access the nested list inside the 'data' list and try to reverse it and store the result in a variable. Print this variable and explain what happened. Then print the nested dictionary to show the effects of the operation."
+  }
+] 

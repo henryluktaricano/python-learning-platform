@@ -1,0 +1,72 @@
+[
+  {
+    "notebook": "14_File_Handling.ipynb",
+    "chapter_index": "File Handling - Opening and Closing",
+    "exercise_number": 1,
+    "difficulty": "beginner",
+    "exercise": "Open a file named 'example.txt' in read mode and assign it to a variable called 'file'. Then close the file using the close() method."
+  },
+  {
+    "notebook": "14_File_Handling.ipynb",
+    "chapter_index": "File Handling - Opening and Closing",
+    "exercise_number": 2,
+    "difficulty": "beginner",
+    "exercise": "Open a file named 'new_file.txt' in write mode. Close the file after opening it. What happens if the file doesn't exist before you run this code?"
+  },
+  {
+    "notebook": "14_File_Handling.ipynb",
+    "chapter_index": "File Handling - Opening and Closing",
+    "exercise_number": 3,
+    "difficulty": "beginner",
+    "exercise": "Try to open a non-existent file named 'doesnt_exist.txt' in read mode. What error do you get? Explain why this error occurs."
+  },
+  {
+    "notebook": "14_File_Handling.ipynb",
+    "chapter_index": "File Handling - Opening and Closing",
+    "exercise_number": 4,
+    "difficulty": "beginner",
+    "exercise": "Open a file named 'sample.txt' without specifying the mode parameter. What is the default mode? Verify this by trying to write to the file and observe what happens."
+  },
+  {
+    "notebook": "14_File_Handling.ipynb",
+    "chapter_index": "File Handling - Opening and Closing",
+    "exercise_number": 5,
+    "difficulty": "intermediate",
+    "exercise": "Use a try-except block to safely open a file named 'data.txt'. If the file doesn't exist, print a message saying 'File not found.' and continue the program without crashing."
+  },
+  {
+    "notebook": "14_File_Handling.ipynb",
+    "chapter_index": "File Handling - Opening and Closing",
+    "exercise_number": 6,
+    "difficulty": "intermediate",
+    "exercise": "Open a file using the 'with' statement (context manager) to ensure it gets closed automatically: 'with open(\"test.txt\", \"r\") as file:'. Explain why this approach is preferred over manual closing."
+  },
+  {
+    "notebook": "14_File_Handling.ipynb",
+    "chapter_index": "File Handling - Opening and Closing",
+    "exercise_number": 7,
+    "difficulty": "intermediate",
+    "exercise": "Open a file in append mode ('a'). Explain how this differs from write mode ('w') and what happens to the file's existing content in each case."
+  },
+  {
+    "notebook": "14_File_Handling.ipynb",
+    "chapter_index": "File Handling - Opening and Closing",
+    "exercise_number": 8,
+    "difficulty": "intermediate",
+    "exercise": "Open a file for both reading and writing using the 'r+' mode. Explain what this allows you to do that neither 'r' nor 'w' mode can do alone."
+  },
+  {
+    "notebook": "14_File_Handling.ipynb",
+    "chapter_index": "File Handling - Opening and Closing",
+    "exercise_number": 9,
+    "difficulty": "advanced",
+    "exercise": "Write a function named 'safe_open' that takes a filename and mode as parameters, attempts to open the file, and returns the file object if successful. If an error occurs, the function should handle exceptions and return None."
+  },
+  {
+    "notebook": "14_File_Handling.ipynb",
+    "chapter_index": "File Handling - Opening and Closing",
+    "exercise_number": 10,
+    "difficulty": "advanced",
+    "exercise": "Write a context manager class called 'FileHandler' that can be used with the 'with' statement to open and automatically close files. Include methods to handle exceptions during file operations."
+  }
+] 

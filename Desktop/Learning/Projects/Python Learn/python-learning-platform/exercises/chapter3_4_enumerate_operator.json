@@ -1,0 +1,107 @@
+[
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Enumerate",
+    "exercise_number": 1,
+    "difficulty": "beginner",
+    "exercise": "Create a list of fruits and use enumerate() in a for loop to print each fruit with its index."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Enumerate",
+    "exercise_number": 2,
+    "difficulty": "beginner",
+    "exercise": "Write a for loop that uses enumerate() to print each character in a string along with its position."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Enumerate",
+    "exercise_number": 3,
+    "difficulty": "beginner",
+    "exercise": "Use enumerate() to print the length of each word in a list of words, along with the word's position in the list."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Enumerate",
+    "exercise_number": 4,
+    "difficulty": "beginner",
+    "exercise": "Create a for loop with enumerate() that starts counting from 1 instead of 0 when printing items from a list."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Enumerate",
+    "exercise_number": 5,
+    "difficulty": "beginner",
+    "exercise": "Use enumerate() to print every second element in a list, along with its index."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Enumerate",
+    "exercise_number": 6,
+    "difficulty": "intermediate",
+    "exercise": "Write a program that uses enumerate() to find the index of the first occurrence of a specific value in a list."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Enumerate",
+    "exercise_number": 7,
+    "difficulty": "intermediate",
+    "exercise": "Create a new list containing only the even-indexed items from an original list using enumerate()."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Enumerate",
+    "exercise_number": 8,
+    "difficulty": "intermediate",
+    "exercise": "Use enumerate() to print the elements of a list with a custom format string: 'Item [index]: [value]'."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Enumerate",
+    "exercise_number": 9,
+    "difficulty": "intermediate",
+    "exercise": "Write a function that uses enumerate() to count how many times each unique element appears in a list, returning a dictionary of counts."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Enumerate",
+    "exercise_number": 10,
+    "difficulty": "intermediate",
+    "exercise": "Use enumerate() to create a dictionary where the keys are the indices and the values are the corresponding elements from a list."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Enumerate",
+    "exercise_number": 11,
+    "difficulty": "advanced",
+    "exercise": "Write a program that reads lines from a text file and uses enumerate() to print each line with its line number."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Enumerate",
+    "exercise_number": 12,
+    "difficulty": "advanced",
+    "exercise": "Create a function that uses enumerate() to merge two equal-length lists into a dictionary, where one list contains keys and the other contains values."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Enumerate",
+    "exercise_number": 13,
+    "difficulty": "advanced",
+    "exercise": "Write a program that uses enumerate() to find the indices of all occurrences of a specific value in a list."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Enumerate",
+    "exercise_number": 14,
+    "difficulty": "advanced",
+    "exercise": "Use enumerate() to convert a list of strings to a list of tuples, where each tuple contains the original string and its index."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Enumerate",
+    "exercise_number": 15,
+    "difficulty": "advanced",
+    "exercise": "Create a function that uses enumerate() to analyze a list of numbers, returning the indices of the minimum and maximum values."
+  }
+] 

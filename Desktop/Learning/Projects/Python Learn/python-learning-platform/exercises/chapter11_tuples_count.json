@@ -1,0 +1,72 @@
+[
+  {
+    "notebook": "11_tuples.ipynb",
+    "chapter_index": "Tuples - count() Method",
+    "exercise_number": 1,
+    "difficulty": "beginner",
+    "exercise": "Create a tuple numbers = (1, 2, 3, 2, 4, 2, 5). Use the count() method to find how many times the number 2 appears in the tuple. Print the result."
+  },
+  {
+    "notebook": "11_tuples.ipynb",
+    "chapter_index": "Tuples - count() Method",
+    "exercise_number": 2,
+    "difficulty": "beginner",
+    "exercise": "Create a tuple letters = ('a', 'b', 'c', 'a', 'd', 'a'). Count how many times 'a' appears and print the result."
+  },
+  {
+    "notebook": "11_tuples.ipynb",
+    "chapter_index": "Tuples - count() Method",
+    "exercise_number": 3,
+    "difficulty": "beginner",
+    "exercise": "Create a tuple values = (True, False, True, True, False). Count how many times True appears in the tuple."
+  },
+  {
+    "notebook": "11_tuples.ipynb",
+    "chapter_index": "Tuples - count() Method",
+    "exercise_number": 4,
+    "difficulty": "beginner",
+    "exercise": "Create a tuple mixed = (10, 'hello', 10, True, 10, 3.14). Count how many times the integer 10 appears and print the result."
+  },
+  {
+    "notebook": "11_tuples.ipynb",
+    "chapter_index": "Tuples - count() Method",
+    "exercise_number": 5,
+    "difficulty": "intermediate",
+    "exercise": "Create a tuple words = ('apple', 'banana', 'apple', 'cherry', 'apple', 'date'). Count the occurrences of 'apple' and 'banana', then calculate the ratio of 'apple' count to 'banana' count."
+  },
+  {
+    "notebook": "11_tuples.ipynb",
+    "chapter_index": "Tuples - count() Method",
+    "exercise_number": 6,
+    "difficulty": "intermediate",
+    "exercise": "Create a tuple grades = ('A', 'B', 'C', 'A', 'D', 'A', 'B', 'F', 'A'). Count each grade and print the percentage of 'A' grades in the tuple."
+  },
+  {
+    "notebook": "11_tuples.ipynb",
+    "chapter_index": "Tuples - count() Method",
+    "exercise_number": 7,
+    "difficulty": "intermediate",
+    "exercise": "Create a tuple data = (None, 42, None, 'hello', None, True). Count how many times None appears in the tuple. Then verify that using count() with a value that doesn't exist returns 0."
+  },
+  {
+    "notebook": "11_tuples.ipynb",
+    "chapter_index": "Tuples - count() Method",
+    "exercise_number": 8,
+    "difficulty": "intermediate",
+    "exercise": "Create a tuple nested = ((1, 2), (3, 4), (1, 2), (5, 6), (1, 2)). Count how many times the tuple (1, 2) appears in nested."
+  },
+  {
+    "notebook": "11_tuples.ipynb",
+    "chapter_index": "Tuples - count() Method",
+    "exercise_number": 9,
+    "difficulty": "advanced",
+    "exercise": "Create a tuple numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10). Write code to count how many even numbers and how many odd numbers are in the tuple."
+  },
+  {
+    "notebook": "11_tuples.ipynb",
+    "chapter_index": "Tuples - count() Method",
+    "exercise_number": 10,
+    "difficulty": "advanced",
+    "exercise": "Given a tuple of names = ('Alice', 'Bob', 'Charlie', 'Alice', 'David', 'Bob', 'Eve', 'Alice'), create a new tuple containing only the unique names (no duplicates). Hint: Use count() and a list as an intermediate step."
+  }
+] 

@@ -1,0 +1,72 @@
+[
+  {
+    "notebook": "2_For_Loops.ipynb",
+    "chapter_index": "For Loops - Tuple Unpacking",
+    "exercise_number": 1,
+    "difficulty": "beginner",
+    "exercise": "Create a list of tuples where each tuple contains a name and an age: [(\"Alice\", 25), (\"Bob\", 30), (\"Charlie\", 35)]. Use a for loop with tuple unpacking to print each name and age."
+  },
+  {
+    "notebook": "2_For_Loops.ipynb",
+    "chapter_index": "For Loops - Tuple Unpacking",
+    "exercise_number": 2,
+    "difficulty": "beginner",
+    "exercise": "Create a list of coordinate pairs as tuples: [(1, 2), (3, 4), (5, 6)]. Use a for loop with tuple unpacking to print each x and y coordinate separately."
+  },
+  {
+    "notebook": "2_For_Loops.ipynb",
+    "chapter_index": "For Loops - Tuple Unpacking",
+    "exercise_number": 3,
+    "difficulty": "beginner",
+    "exercise": "Create a list of tuples where each tuple contains a city name and its population. Use a for loop with tuple unpacking to print a sentence like 'City X has a population of Y'."
+  },
+  {
+    "notebook": "2_For_Loops.ipynb",
+    "chapter_index": "For Loops - Tuple Unpacking",
+    "exercise_number": 4,
+    "difficulty": "intermediate",
+    "exercise": "Create a list of tuples where each tuple contains a product name and its price. Use a for loop with tuple unpacking to create a new list containing only the products with a price greater than 10."
+  },
+  {
+    "notebook": "2_For_Loops.ipynb",
+    "chapter_index": "For Loops - Tuple Unpacking",
+    "exercise_number": 5,
+    "difficulty": "intermediate",
+    "exercise": "Create a list of 3-element tuples, each containing a student name, their score, and grade (e.g., [(\"Alice\", 85, \"B\"), ...]). Use a for loop with tuple unpacking to print each student's information."
+  },
+  {
+    "notebook": "2_For_Loops.ipynb",
+    "chapter_index": "For Loops - Tuple Unpacking",
+    "exercise_number": 6,
+    "difficulty": "intermediate",
+    "exercise": "Create a list of tuples where each tuple contains a word and its length. Use a for loop with tuple unpacking to find and print the longest word and its length."
+  },
+  {
+    "notebook": "2_For_Loops.ipynb",
+    "chapter_index": "For Loops - Tuple Unpacking",
+    "exercise_number": 7,
+    "difficulty": "intermediate",
+    "exercise": "Create a list of tuples where each tuple contains a temperature value and its unit ('C' or 'F'). Use a for loop with tuple unpacking to convert all temperatures to Celsius and store them in a new list."
+  },
+  {
+    "notebook": "2_For_Loops.ipynb",
+    "chapter_index": "For Loops - Tuple Unpacking",
+    "exercise_number": 8,
+    "difficulty": "advanced",
+    "exercise": "Create a list of tuples where each tuple contains two numbers. Use a for loop with tuple unpacking to create three new lists: one with the sum of each pair, one with the product of each pair, and one with the difference between each pair."
+  },
+  {
+    "notebook": "2_For_Loops.ipynb",
+    "chapter_index": "For Loops - Tuple Unpacking",
+    "exercise_number": 9,
+    "difficulty": "advanced",
+    "exercise": "Create a list of nested tuples like [((1, 2), (3, 4)), ((5, 6), (7, 8))]. Use nested for loops with tuple unpacking to print all the individual numbers."
+  },
+  {
+    "notebook": "2_For_Loops.ipynb",
+    "chapter_index": "For Loops - Tuple Unpacking",
+    "exercise_number": 10,
+    "difficulty": "advanced",
+    "exercise": "Create a list of tuples where each tuple contains a student name and a list of their test scores. Use a for loop with tuple unpacking to calculate and print each student's average score."
+  }
+] 

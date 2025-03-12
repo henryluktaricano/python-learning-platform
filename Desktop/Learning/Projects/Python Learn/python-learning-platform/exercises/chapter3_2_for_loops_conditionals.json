@@ -1,0 +1,72 @@
+[
+  {
+    "notebook": "2_For_Loops.ipynb",
+    "chapter_index": "For Loops - Conditionals",
+    "exercise_number": 1,
+    "difficulty": "beginner",
+    "exercise": "Create a list of numbers from 1 to 10 and use a for loop with an if statement to print only the even numbers."
+  },
+  {
+    "notebook": "2_For_Loops.ipynb",
+    "chapter_index": "For Loops - Conditionals",
+    "exercise_number": 2,
+    "difficulty": "beginner",
+    "exercise": "Write a for loop that iterates through a list of numbers and prints 'Even' for even numbers and 'Odd' for odd numbers."
+  },
+  {
+    "notebook": "2_For_Loops.ipynb",
+    "chapter_index": "For Loops - Conditionals",
+    "exercise_number": 3,
+    "difficulty": "beginner",
+    "exercise": "Create a list of strings and use a for loop to print only the strings that have more than 5 characters."
+  },
+  {
+    "notebook": "2_For_Loops.ipynb",
+    "chapter_index": "For Loops - Conditionals",
+    "exercise_number": 4,
+    "difficulty": "intermediate",
+    "exercise": "Create a list of numbers and use a for loop to create two new lists - one containing only positive numbers and another containing only negative numbers."
+  },
+  {
+    "notebook": "2_For_Loops.ipynb",
+    "chapter_index": "For Loops - Conditionals",
+    "exercise_number": 5,
+    "difficulty": "intermediate",
+    "exercise": "Write a for loop that iterates through a string and prints only the consonants (non-vowels)."
+  },
+  {
+    "notebook": "2_For_Loops.ipynb",
+    "chapter_index": "For Loops - Conditionals",
+    "exercise_number": 6,
+    "difficulty": "intermediate",
+    "exercise": "Create a list of integers and use a for loop to find and print numbers that are divisible by both 2 and 3."
+  },
+  {
+    "notebook": "2_For_Loops.ipynb",
+    "chapter_index": "For Loops - Conditionals",
+    "exercise_number": 7,
+    "difficulty": "intermediate",
+    "exercise": "Write a for loop that iterates through a list of numbers and calculates the sum of only the positive numbers. Print the result."
+  },
+  {
+    "notebook": "2_For_Loops.ipynb",
+    "chapter_index": "For Loops - Conditionals",
+    "exercise_number": 8,
+    "difficulty": "advanced",
+    "exercise": "Create a list of strings and use a for loop to create a new list containing only the strings that start with a vowel."
+  },
+  {
+    "notebook": "2_For_Loops.ipynb",
+    "chapter_index": "For Loops - Conditionals",
+    "exercise_number": 9,
+    "difficulty": "advanced",
+    "exercise": "Write a for loop that iterates through a list of integers and finds the first occurrence of a number that is a perfect square (like 4, 9, 16). Print the number if found, otherwise print 'No perfect squares'."
+  },
+  {
+    "notebook": "2_For_Loops.ipynb",
+    "chapter_index": "For Loops - Conditionals",
+    "exercise_number": 10,
+    "difficulty": "advanced",
+    "exercise": "Create a list of strings and use a for loop to count how many strings contain both a vowel and a digit. Print the count."
+  }
+] 

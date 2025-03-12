@@ -1,0 +1,72 @@
+[
+  {
+    "notebook": "11_tuples.ipynb",
+    "chapter_index": "Tuples - index() Method",
+    "exercise_number": 1,
+    "difficulty": "beginner",
+    "exercise": "Create a tuple numbers = (10, 20, 30, 40, 50). Use the index() method to find the position of the value 30. Print the result."
+  },
+  {
+    "notebook": "11_tuples.ipynb",
+    "chapter_index": "Tuples - index() Method",
+    "exercise_number": 2,
+    "difficulty": "beginner",
+    "exercise": "Create a tuple fruits = ('apple', 'banana', 'cherry', 'date', 'elderberry'). Find the index of 'cherry' using the index() method."
+  },
+  {
+    "notebook": "11_tuples.ipynb",
+    "chapter_index": "Tuples - index() Method",
+    "exercise_number": 3,
+    "difficulty": "beginner",
+    "exercise": "Create a tuple values = (True, False, True, False). Find the index of the first occurrence of False."
+  },
+  {
+    "notebook": "11_tuples.ipynb",
+    "chapter_index": "Tuples - index() Method",
+    "exercise_number": 4,
+    "difficulty": "beginner",
+    "exercise": "Create a tuple duplicates = ('a', 'b', 'c', 'a', 'b', 'c'). Find the index of the first occurrence of 'b'. Confirm that it returns the first occurrence by checking the value at that index."
+  },
+  {
+    "notebook": "11_tuples.ipynb",
+    "chapter_index": "Tuples - index() Method",
+    "exercise_number": 5,
+    "difficulty": "intermediate",
+    "exercise": "Create a tuple letters = ('p', 'y', 't', 'h', 'o', 'n'). Use the index() method to find the position of 'h', then use this index to slice the tuple and get the substring 'hon'."
+  },
+  {
+    "notebook": "11_tuples.ipynb",
+    "chapter_index": "Tuples - index() Method",
+    "exercise_number": 6,
+    "difficulty": "intermediate",
+    "exercise": "Create a tuple numbers = (5, 10, 15, 20, 25, 30, 35). Use the start parameter of the index() method to find the index of the first occurrence of the value 15 starting from index 3. (This should raise an error; explain why.)"
+  },
+  {
+    "notebook": "11_tuples.ipynb",
+    "chapter_index": "Tuples - index() Method",
+    "exercise_number": 7,
+    "difficulty": "intermediate",
+    "exercise": "Create a tuple repeated = (10, 20, 30, 10, 20, 30). Find the index of the first and second occurrences of the value 20 by using the start parameter of the index() method."
+  },
+  {
+    "notebook": "11_tuples.ipynb",
+    "chapter_index": "Tuples - index() Method",
+    "exercise_number": 8,
+    "difficulty": "intermediate",
+    "exercise": "Create a tuple nested = ((1, 2), (3, 4), (5, 6), (7, 8)). Find the index of the tuple (5, 6) using the index() method."
+  },
+  {
+    "notebook": "11_tuples.ipynb",
+    "chapter_index": "Tuples - index() Method",
+    "exercise_number": 9,
+    "difficulty": "advanced",
+    "exercise": "Create a tuple data = (10, 20, 30, 40, 30, 20, 10). Write code to find all indices where the value 30 appears. (Hint: Use a loop and the start parameter.)"
+  },
+  {
+    "notebook": "11_tuples.ipynb",
+    "chapter_index": "Tuples - index() Method",
+    "exercise_number": 10,
+    "difficulty": "advanced",
+    "exercise": "Create a tuple words = ('the', 'quick', 'brown', 'fox', 'jumps', 'over', 'the', 'lazy', 'dog'). Write code to find all indices of 'the' and replace them with 'a' to create a new tuple. (Note: Since tuples are immutable, you'll need to create a new tuple.)"
+  }
+] 

@@ -1,0 +1,72 @@
+[
+  {
+    "notebook": "11_tuples.ipynb",
+    "chapter_index": "Tuples - Use Cases",
+    "exercise_number": 1,
+    "difficulty": "beginner",
+    "exercise": "Create a function that takes a student's name and three test scores as parameters, and returns a tuple containing the name and the average score."
+  },
+  {
+    "notebook": "11_tuples.ipynb",
+    "chapter_index": "Tuples - Use Cases",
+    "exercise_number": 2,
+    "difficulty": "beginner",
+    "exercise": "Create a tuple to represent an RGB color (e.g., (255, 0, 0) for red). Then write code to print a message describing the color based on its values."
+  },
+  {
+    "notebook": "11_tuples.ipynb",
+    "chapter_index": "Tuples - Use Cases",
+    "exercise_number": 3,
+    "difficulty": "beginner",
+    "exercise": "Create a list of tuples where each tuple contains a country name and its population. Print the name of the country with the highest population."
+  },
+  {
+    "notebook": "11_tuples.ipynb",
+    "chapter_index": "Tuples - Use Cases",
+    "exercise_number": 4,
+    "difficulty": "beginner",
+    "exercise": "Write a function that takes a person's first and last name as input and returns a tuple of (last_name, first_name)."
+  },
+  {
+    "notebook": "11_tuples.ipynb",
+    "chapter_index": "Tuples - Use Cases",
+    "exercise_number": 5,
+    "difficulty": "intermediate",
+    "exercise": "Create a function that takes a list of integers and returns a tuple containing (min_value, max_value, sum_of_values)."
+  },
+  {
+    "notebook": "11_tuples.ipynb",
+    "chapter_index": "Tuples - Use Cases",
+    "exercise_number": 6,
+    "difficulty": "intermediate",
+    "exercise": "Create a dictionary where the keys are student names and the values are tuples of (math_score, science_score, history_score). Write code to find the student with the highest average score."
+  },
+  {
+    "notebook": "11_tuples.ipynb",
+    "chapter_index": "Tuples - Use Cases",
+    "exercise_number": 7,
+    "difficulty": "intermediate",
+    "exercise": "Write a function that takes a tuple of (x, y) coordinates as input and returns the distance from the origin (0, 0) as a float."
+  },
+  {
+    "notebook": "11_tuples.ipynb",
+    "chapter_index": "Tuples - Use Cases",
+    "exercise_number": 8,
+    "difficulty": "intermediate",
+    "exercise": "Create a function that takes a date as a tuple (year, month, day) and returns a formatted string like 'YYYY-MM-DD'."
+  },
+  {
+    "notebook": "11_tuples.ipynb",
+    "chapter_index": "Tuples - Use Cases",
+    "exercise_number": 9,
+    "difficulty": "advanced",
+    "exercise": "Create a function to represent a playing card as a tuple (suit, value). Then create a deck of cards as a tuple of 52 card tuples. Write a function to shuffle and deal cards from this deck."
+  },
+  {
+    "notebook": "11_tuples.ipynb",
+    "chapter_index": "Tuples - Use Cases",
+    "exercise_number": 10,
+    "difficulty": "advanced",
+    "exercise": "Write a function that takes a list of 3D points represented as tuples (x, y, z) and returns the two points that are closest to each other. (Hint: Calculate the distance between each pair of points.)"
+  }
+] 

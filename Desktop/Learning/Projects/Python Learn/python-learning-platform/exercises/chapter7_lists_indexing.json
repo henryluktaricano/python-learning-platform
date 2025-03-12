@@ -1,0 +1,142 @@
+[
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Indexing",
+    "exercise_number": 1,
+    "difficulty": "beginner",
+    "exercise": "fruits = ['apple', 'banana', 'cherry']. Access and print the first element of the list."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Indexing",
+    "exercise_number": 2,
+    "difficulty": "beginner",
+    "exercise": "numbers = [10, 20, 30, 40, 50]. Access and print the third element of the list."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Indexing",
+    "exercise_number": 3,
+    "difficulty": "beginner",
+    "exercise": "colors = ['red', 'green', 'blue', 'yellow']. Access and print the last element of the list."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Indexing",
+    "exercise_number": 4,
+    "difficulty": "beginner",
+    "exercise": "data = [5, 10, 15, 20, 25]. Access and print the element at index 2."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Indexing",
+    "exercise_number": 5,
+    "difficulty": "beginner",
+    "exercise": "letters = ['a', 'b', 'c', 'd', 'e']. Access and print the last element using negative indexing."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Indexing",
+    "exercise_number": 6,
+    "difficulty": "beginner",
+    "exercise": "planets = ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter']. Access and print the second element using positive indexing."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Indexing",
+    "exercise_number": 7,
+    "difficulty": "intermediate",
+    "exercise": "animals = ['dog', 'cat', 'rabbit', 'hamster']. Access and print the second-to-last element using negative indexing."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Indexing",
+    "exercise_number": 8,
+    "difficulty": "intermediate",
+    "exercise": "scores = [85, 92, 78, 90, 88]. Access and print both the first and last elements in a single line of code."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Indexing",
+    "exercise_number": 9,
+    "difficulty": "intermediate",
+    "exercise": "weekdays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']. Create a loop that prints each element with its index."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Indexing",
+    "exercise_number": 10,
+    "difficulty": "intermediate",
+    "exercise": "values = [10, 20, 30, 40, 50]. Calculate and print the sum of the first and last elements."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Indexing",
+    "exercise_number": 11,
+    "difficulty": "intermediate",
+    "exercise": "mixed = [1, 'hello', 3.14, True, [1, 2]]. Access and print the nested list at the end of mixed."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Indexing",
+    "exercise_number": 12,
+    "difficulty": "intermediate",
+    "exercise": "matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]. Access and print the element 5 (middle) from this 2D list."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Indexing",
+    "exercise_number": 13,
+    "difficulty": "intermediate",
+    "exercise": "chars = ['a', 'b', 'c', 'd', 'e', 'f']. Write code that prints every second character using a loop and indexing."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Indexing",
+    "exercise_number": 14,
+    "difficulty": "advanced",
+    "exercise": "data = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]. Access and print the elements 1, 5, and 9 (diagonal) from this 2D list."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Indexing",
+    "exercise_number": 15,
+    "difficulty": "advanced",
+    "exercise": "words = ['apple', 'banana', 'cherry', 'date']. Use indexing to print the first letter of each word in the list."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Indexing",
+    "exercise_number": 16,
+    "difficulty": "advanced",
+    "exercise": "nested = [1, [2, [3, 4], 5], 6]. Access and print the value 4 from this deeply nested list."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Indexing",
+    "exercise_number": 17,
+    "difficulty": "advanced",
+    "exercise": "temperatures = [72, 75, 78, 79, 80, 81, 82, 85]. Check if any temperature in the list is greater than 83. If so, print its index."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Indexing",
+    "exercise_number": 18,
+    "difficulty": "advanced",
+    "exercise": "inventory = [['apples', 5], ['bananas', 10], ['oranges', 8], ['grapes', 12]]. Write code to print the fruit name and quantity for each item in inventory."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Indexing",
+    "exercise_number": 19,
+    "difficulty": "advanced",
+    "exercise": "sequence = [[1, 2], [3, 4], [5, 6], [7, 8]]. Write code that creates a new list containing the second element from each inner list."
+  },
+  {
+    "notebook": "7_lists.ipynb",
+    "chapter_index": "List Indexing",
+    "exercise_number": 20,
+    "difficulty": "advanced",
+    "exercise": "multi_level = [1, [2, 3, [4, 5, [6, 7]]], 8, [9, 10]]. Write code to access and print the values 1, 5, 7, and 10 from this complex nested list."
+  }
+] 

@@ -1,0 +1,72 @@
+[
+  {
+    "notebook": "9_dictionaries.ipynb",
+    "chapter_index": "Dictionaries - Nested Dictionaries",
+    "exercise_number": 1,
+    "difficulty": "beginner",
+    "exercise": "Create a dictionary called 'person' with keys 'name' and 'address'. The value for 'address' should be another dictionary with keys 'street', 'city', and 'zipcode'. Print the entire dictionary."
+  },
+  {
+    "notebook": "9_dictionaries.ipynb",
+    "chapter_index": "Dictionaries - Nested Dictionaries",
+    "exercise_number": 2,
+    "difficulty": "beginner",
+    "exercise": "menu = {'breakfast': {'eggs': 5.99, 'pancakes': 7.99, 'coffee': 2.99}, 'lunch': {'sandwich': 8.99, 'soup': 4.99, 'soda': 1.99}}. Print the price of coffee from the breakfast menu."
+  },
+  {
+    "notebook": "9_dictionaries.ipynb",
+    "chapter_index": "Dictionaries - Nested Dictionaries",
+    "exercise_number": 3,
+    "difficulty": "beginner",
+    "exercise": "student = {'name': 'Alice', 'courses': {'math': {'grade': 'A', 'credits': 3}, 'history': {'grade': 'B', 'credits': 4}}}. Print Alice's grade in math."
+  },
+  {
+    "notebook": "9_dictionaries.ipynb",
+    "chapter_index": "Dictionaries - Nested Dictionaries",
+    "exercise_number": 4,
+    "difficulty": "beginner",
+    "exercise": "company = {'name': 'Tech Corp', 'departments': {'HR': {'employees': 5, 'manager': 'Jane'}, 'Engineering': {'employees': 20, 'manager': 'Bob'}}}. Print the name of the manager of the Engineering department."
+  },
+  {
+    "notebook": "9_dictionaries.ipynb",
+    "chapter_index": "Dictionaries - Nested Dictionaries",
+    "exercise_number": 5,
+    "difficulty": "intermediate",
+    "exercise": "bookstore = {'fiction': {'bestseller': {'title': 'The Novel', 'author': 'J. Smith', 'price': 15.99}}, 'non_fiction': {'bestseller': {'title': 'Life Facts', 'author': 'A. Jones', 'price': 20.99}}}. Print the title and price of the bestselling fiction book."
+  },
+  {
+    "notebook": "9_dictionaries.ipynb",
+    "chapter_index": "Dictionaries - Nested Dictionaries",
+    "exercise_number": 6,
+    "difficulty": "intermediate",
+    "exercise": "school = {'students': {'grade9': 120, 'grade10': 100, 'grade11': 90, 'grade12': 80}, 'teachers': {'fulltime': 30, 'parttime': 15}, 'classrooms': {'regular': 20, 'labs': 5}}. Calculate and print the total number of students and teachers."
+  },
+  {
+    "notebook": "9_dictionaries.ipynb",
+    "chapter_index": "Dictionaries - Nested Dictionaries",
+    "exercise_number": 7,
+    "difficulty": "intermediate",
+    "exercise": "car = {'make': 'Toyota', 'model': 'Camry', 'specs': {'engine': {'type': 'V6', 'horsepower': 300}, 'transmission': 'automatic', 'mpg': {'city': 25, 'highway': 32}}}. Create a string that describes the car's engine type and highway mpg."
+  },
+  {
+    "notebook": "9_dictionaries.ipynb",
+    "chapter_index": "Dictionaries - Nested Dictionaries",
+    "exercise_number": 8,
+    "difficulty": "intermediate",
+    "exercise": "user_profile = {'personal': {'name': 'Sam', 'age': 28}, 'professional': {'title': 'Developer', 'experience': 5}, 'preferences': {'theme': 'dark', 'notifications': True}}. Create a new nested dictionary called 'contact' under the 'personal' key with 'email' and 'phone' fields. Print the updated dictionary."
+  },
+  {
+    "notebook": "9_dictionaries.ipynb",
+    "chapter_index": "Dictionaries - Nested Dictionaries",
+    "exercise_number": 9,
+    "difficulty": "advanced",
+    "exercise": "Create a nested dictionary 'country_data' with at least three countries. For each country, include nested dictionaries for 'capital', 'population', and 'languages'. The 'languages' key should contain a dictionary of languages spoken and the percentage of speakers."
+  },
+  {
+    "notebook": "9_dictionaries.ipynb",
+    "chapter_index": "Dictionaries - Nested Dictionaries",
+    "exercise_number": 10,
+    "difficulty": "advanced",
+    "exercise": "Create a nested dictionary 'online_store' with categories as keys. Each category should have a dictionary of products, and each product should have a dictionary containing 'price', 'stock', and 'ratings' (which is a dictionary with 'average' and 'count' keys). Print the price of a specific product."
+  }
+] 

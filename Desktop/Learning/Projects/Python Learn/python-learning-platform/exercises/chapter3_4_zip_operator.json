@@ -1,0 +1,107 @@
+[
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Zip",
+    "exercise_number": 1,
+    "difficulty": "beginner",
+    "exercise": "Create two lists, one with first names and one with last names. Use zip() to print full names by combining the elements."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Zip",
+    "exercise_number": 2,
+    "difficulty": "beginner",
+    "exercise": "Write a for loop that uses zip() to iterate through two lists simultaneously and print their elements side by side."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Zip",
+    "exercise_number": 3,
+    "difficulty": "beginner",
+    "exercise": "Create a list of numbers and a list of their squares. Use zip() to print each number and its square together."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Zip",
+    "exercise_number": 4,
+    "difficulty": "beginner",
+    "exercise": "Use zip() to create a list of tuples from two separate lists."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Zip",
+    "exercise_number": 5,
+    "difficulty": "beginner",
+    "exercise": "Create three lists of equal length and use zip() to iterate through all three at once, printing each trio of elements."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Zip",
+    "exercise_number": 6,
+    "difficulty": "intermediate",
+    "exercise": "Write a function that uses zip() to calculate the element-wise sum of two lists."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Zip",
+    "exercise_number": 7,
+    "difficulty": "intermediate",
+    "exercise": "Use zip() to create a dictionary from two lists, where one list contains keys and the other contains values."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Zip",
+    "exercise_number": 8,
+    "difficulty": "intermediate",
+    "exercise": "Create a program that uses zip() to find matching elements (elements at the same position) in two different lists."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Zip",
+    "exercise_number": 9,
+    "difficulty": "intermediate",
+    "exercise": "Write a function that uses zip() to merge two sorted lists into a single sorted list."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Zip",
+    "exercise_number": 10,
+    "difficulty": "intermediate",
+    "exercise": "Use zip() with a string and a list of indices to create a dictionary where each character is mapped to its position."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Zip",
+    "exercise_number": 11,
+    "difficulty": "advanced",
+    "exercise": "Create a function that uses zip() to transpose a matrix (convert rows to columns and vice versa)."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Zip",
+    "exercise_number": 12,
+    "difficulty": "advanced",
+    "exercise": "Write a program that uses zip() to calculate the dot product of two vectors (lists of numbers)."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Zip",
+    "exercise_number": 13,
+    "difficulty": "advanced",
+    "exercise": "Use zip() to interleave two lists into a single list (e.g., [a1, b1, a2, b2, ...] from [a1, a2, ...] and [b1, b2, ...])."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Zip",
+    "exercise_number": 14,
+    "difficulty": "advanced",
+    "exercise": "Create a function that uses zip() to join corresponding lines from two text files, separated by a delimiter."
+  },
+  {
+    "notebook": "4_Useful_Operators.ipynb",
+    "chapter_index": "Useful Operators - Zip",
+    "exercise_number": 15,
+    "difficulty": "advanced",
+    "exercise": "Write a program that uses zip() with enumerate() to create a numbered list of pairs from two input lists."
+  }
+] 

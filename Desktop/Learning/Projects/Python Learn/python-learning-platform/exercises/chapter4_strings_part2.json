@@ -1,0 +1,282 @@
+[
+  {
+    "notebook": "4_strings.ipynb",
+    "chapter_index": "String indexing",
+    "exercise_number": 31,
+    "difficulty": "beginner",
+    "exercise": "word = 'Python'. Access and print the first character using positive indexing."
+  },
+  {
+    "notebook": "4_strings.ipynb",
+    "chapter_index": "String indexing",
+    "exercise_number": 32,
+    "difficulty": "beginner",
+    "exercise": "word = 'Python'. Access and print the last character using positive indexing."
+  },
+  {
+    "notebook": "4_strings.ipynb",
+    "chapter_index": "String indexing",
+    "exercise_number": 33,
+    "difficulty": "beginner",
+    "exercise": "word = 'Python'. Access and print the third character using positive indexing."
+  },
+  {
+    "notebook": "4_strings.ipynb",
+    "chapter_index": "String indexing",
+    "exercise_number": 34,
+    "difficulty": "beginner",
+    "exercise": "word = 'Python'. Access and print the first character using negative indexing."
+  },
+  {
+    "notebook": "4_strings.ipynb",
+    "chapter_index": "String indexing",
+    "exercise_number": 35,
+    "difficulty": "beginner",
+    "exercise": "word = 'Python'. Access and print the last character using negative indexing."
+  },
+  {
+    "notebook": "4_strings.ipynb",
+    "chapter_index": "String indexing",
+    "exercise_number": 36,
+    "difficulty": "beginner",
+    "exercise": "word = 'Programming'. Print the character at index 5."
+  },
+  {
+    "notebook": "4_strings.ipynb",
+    "chapter_index": "String indexing",
+    "exercise_number": 37,
+    "difficulty": "intermediate",
+    "exercise": "word = 'Programming'. Print the character at index -3."
+  },
+  {
+    "notebook": "4_strings.ipynb",
+    "chapter_index": "String indexing",
+    "exercise_number": 38,
+    "difficulty": "intermediate",
+    "exercise": "sentence = 'The quick brown fox'. Print the character at the index that corresponds to the first letter of the word 'brown'."
+  },
+  {
+    "notebook": "4_strings.ipynb",
+    "chapter_index": "String indexing",
+    "exercise_number": 39,
+    "difficulty": "intermediate",
+    "exercise": "word = 'Mississippi'. Print the character at the same position as the second 's'."
+  },
+  {
+    "notebook": "4_strings.ipynb",
+    "chapter_index": "String indexing",
+    "exercise_number": 40,
+    "difficulty": "intermediate",
+    "exercise": "sentence = 'Hello, World!'. Try to access a character at an index that's out of bounds. What happens?"
+  },
+  {
+    "notebook": "4_strings.ipynb",
+    "chapter_index": "String indexing",
+    "exercise_number": 41,
+    "difficulty": "intermediate",
+    "exercise": "word = 'Python'. Print all characters one by one using a loop and positive indexing."
+  },
+  {
+    "notebook": "4_strings.ipynb",
+    "chapter_index": "String indexing",
+    "exercise_number": 42,
+    "difficulty": "intermediate",
+    "exercise": "word = 'Python'. Print all characters one by one using a loop and negative indexing."
+  },
+  {
+    "notebook": "4_strings.ipynb",
+    "chapter_index": "String indexing",
+    "exercise_number": 43,
+    "difficulty": "advanced",
+    "exercise": "word = 'Programming'. Print all the vowels in this word using indexing."
+  },
+  {
+    "notebook": "4_strings.ipynb",
+    "chapter_index": "String indexing",
+    "exercise_number": 44,
+    "difficulty": "advanced",
+    "exercise": "sentence = 'Python is fun'. Create a new string containing only the first letter of each word using indexing."
+  },
+  {
+    "notebook": "4_strings.ipynb",
+    "chapter_index": "String indexing",
+    "exercise_number": 45,
+    "difficulty": "advanced",
+    "exercise": "word = 'abcdefghijklmnopqrstuvwxyz'. Print characters at even indices using indexing."
+  },
+  {
+    "notebook": "4_strings.ipynb",
+    "chapter_index": "String indexing",
+    "exercise_number": 46,
+    "difficulty": "advanced",
+    "exercise": "word = 'abcdefghijklmnopqrstuvwxyz'. Print characters at odd indices using indexing."
+  },
+  {
+    "notebook": "4_strings.ipynb",
+    "chapter_index": "String indexing",
+    "exercise_number": 47,
+    "difficulty": "advanced",
+    "exercise": "word = 'Python'. Try to change the character at index 0 to 'J'. What happens and why?"
+  },
+  {
+    "notebook": "4_strings.ipynb",
+    "chapter_index": "String indexing",
+    "exercise_number": 48,
+    "difficulty": "advanced",
+    "exercise": "sentence = 'The quick brown fox jumps over the lazy dog'. Find and print the index of the character 'q'."
+  },
+  {
+    "notebook": "4_strings.ipynb",
+    "chapter_index": "String indexing",
+    "exercise_number": 49,
+    "difficulty": "advanced",
+    "exercise": "word = 'Python'. Use both positive and negative indexing to access the same character. Print both to verify they're the same."
+  },
+  {
+    "notebook": "4_strings.ipynb",
+    "chapter_index": "String indexing",
+    "exercise_number": 50,
+    "difficulty": "advanced",
+    "exercise": "text = 'Python programming is fun and rewarding!'. Write code to find and print the positions of all spaces in this text."
+  },
+  {
+    "notebook": "4_strings.ipynb",
+    "chapter_index": "String slicing",
+    "exercise_number": 51,
+    "difficulty": "beginner",
+    "exercise": "word = 'Python'. Extract and print the first three characters using slicing."
+  },
+  {
+    "notebook": "4_strings.ipynb",
+    "chapter_index": "String slicing",
+    "exercise_number": 52,
+    "difficulty": "beginner",
+    "exercise": "word = 'Python'. Extract and print the last three characters using slicing."
+  },
+  {
+    "notebook": "4_strings.ipynb",
+    "chapter_index": "String slicing",
+    "exercise_number": 53,
+    "difficulty": "beginner",
+    "exercise": "word = 'Programming'. Extract and print characters from index 2 to index 5 (inclusive)."
+  },
+  {
+    "notebook": "4_strings.ipynb",
+    "chapter_index": "String slicing",
+    "exercise_number": 54,
+    "difficulty": "beginner",
+    "exercise": "word = 'Python'. Extract and print all characters except the first one."
+  },
+  {
+    "notebook": "4_strings.ipynb",
+    "chapter_index": "String slicing",
+    "exercise_number": 55,
+    "difficulty": "beginner",
+    "exercise": "word = 'Python'. Extract and print all characters except the last one."
+  },
+  {
+    "notebook": "4_strings.ipynb",
+    "chapter_index": "String slicing",
+    "exercise_number": 56,
+    "difficulty": "intermediate",
+    "exercise": "word = 'Python'. Extract and print every second character using slicing with a step value."
+  },
+  {
+    "notebook": "4_strings.ipynb",
+    "chapter_index": "String slicing",
+    "exercise_number": 57,
+    "difficulty": "intermediate",
+    "exercise": "word = 'Python'. Extract and print the string in reverse using slicing."
+  },
+  {
+    "notebook": "4_strings.ipynb",
+    "chapter_index": "String slicing",
+    "exercise_number": 58,
+    "difficulty": "intermediate",
+    "exercise": "sentence = 'The quick brown fox'. Extract and print the word 'quick' using slicing."
+  },
+  {
+    "notebook": "4_strings.ipynb",
+    "chapter_index": "String slicing",
+    "exercise_number": 59,
+    "difficulty": "intermediate",
+    "exercise": "word = 'Python'. Create a slice that extracts 'Py', another that extracts 'tho', and a third that extracts 'on'. Print all three."
+  },
+  {
+    "notebook": "4_strings.ipynb",
+    "chapter_index": "String slicing",
+    "exercise_number": 60,
+    "difficulty": "intermediate",
+    "exercise": "word = 'Python'. Create a slice with negative indices that extracts 'tho'. Print the result."
+  },
+  {
+    "notebook": "4_strings.ipynb",
+    "chapter_index": "String slicing",
+    "exercise_number": 61,
+    "difficulty": "intermediate",
+    "exercise": "word = 'Programming'. Extract and print every third character starting from the first character."
+  },
+  {
+    "notebook": "4_strings.ipynb",
+    "chapter_index": "String slicing",
+    "exercise_number": 62,
+    "difficulty": "intermediate",
+    "exercise": "word = 'Programming'. Use slicing to print the string in reverse order."
+  },
+  {
+    "notebook": "4_strings.ipynb",
+    "chapter_index": "String slicing",
+    "exercise_number": 63,
+    "difficulty": "advanced",
+    "exercise": "text = 'Python is a great programming language'. Extract and print only the words that have an 'a' in them using slicing."
+  },
+  {
+    "notebook": "4_strings.ipynb",
+    "chapter_index": "String slicing",
+    "exercise_number": 64,
+    "difficulty": "advanced",
+    "exercise": "word = 'abcdefghijklmnopqrstuvwxyz'. Extract and print only the vowels using slicing and a list of indices."
+  },
+  {
+    "notebook": "4_strings.ipynb",
+    "chapter_index": "String slicing",
+    "exercise_number": 65,
+    "difficulty": "advanced",
+    "exercise": "word = 'Python'. Create a new string by repeating the original string three times using slicing and concatenation."
+  },
+  {
+    "notebook": "4_strings.ipynb",
+    "chapter_index": "String slicing",
+    "exercise_number": 66,
+    "difficulty": "advanced",
+    "exercise": "sentence = 'The quick brown fox jumps over the lazy dog'. Check if this is a pangram (contains all letters of the alphabet) using slicing and sets."
+  },
+  {
+    "notebook": "4_strings.ipynb",
+    "chapter_index": "String slicing",
+    "exercise_number": 67,
+    "difficulty": "advanced",
+    "exercise": "word = 'Python'. Use slicing to create a new string that alternates uppercase and lowercase letters."
+  },
+  {
+    "notebook": "4_strings.ipynb",
+    "chapter_index": "String slicing",
+    "exercise_number": 68,
+    "difficulty": "advanced",
+    "exercise": "text = 'level'. Write code to check if this string is a palindrome using slicing."
+  },
+  {
+    "notebook": "4_strings.ipynb",
+    "chapter_index": "String slicing",
+    "exercise_number": 69,
+    "difficulty": "advanced",
+    "exercise": "sentence = 'Python programming is fun'. Extract and print all words in reverse order using slicing, without reversing the sentence structure."
+  },
+  {
+    "notebook": "4_strings.ipynb",
+    "chapter_index": "String slicing",
+    "exercise_number": 70,
+    "difficulty": "advanced",
+    "exercise": "Create a function that takes a string and returns a new string where all the words are reversed but the word order remains the same. Test it on 'Python is amazing'."
+  }
+] 
