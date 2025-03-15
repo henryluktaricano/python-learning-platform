@@ -1,117 +1,161 @@
-# Python Interactive Learning Platform
+# Python Learning Platform
 
-An interactive Python learning platform with AI-assisted feedback and notebook-style code execution.
-
-![Python Learning Platform](https://img.shields.io/badge/Python-Learning%20Platform-blue)
+An interactive web application for learning Python programming through structured chapters and exercises.
 
 ## Features
 
-- **Interactive Code Execution**: Write and run Python code directly in your browser
-- **AI-Assisted Evaluation**: Get detailed feedback on your code from OpenAI models
-- **Notebook-Style Interface**: Similar to Jupyter notebooks for a familiar experience
-- **Structured Exercises**: Organized by chapters and lessons
-- **Token Usage Tracking**: Monitor your OpenAI API usage
-- **Dark Mode Support**: Choose between light and dark themes
-- **Reference Material**: Access markdown-rendered notes for each topic
+- **Interactive Learning**: Complete Python exercises directly in your browser
+- **Structured Curriculum**: Organized chapters and topics covering Python fundamentals
+- **Code Execution**: Write and run Python code with immediate feedback
+- **Progress Tracking**: Monitor your learning journey
 
-## Technology Stack
+## Tech Stack
 
-- **Frontend**: Next.js + React + TailwindCSS + ShadcnUI
-- **Backend**: FastAPI + Python
-- **Database**: SQLite (for token usage and feedback storage)
-- **AI**: OpenAI GPT models for code evaluation
+### Frontend
+- Next.js (React framework)
+- TypeScript
+- Tailwind CSS
 
-## Project Structure
-
-```
-python-learning-platform/
-├── frontend/               # Next.js frontend
-│   ├── app/                # Next.js App Router
-│   ├── components/         # React components
-│   └── ...
-├── backend/                # FastAPI backend
-│   ├── app/                # API endpoints and services
-│   ├── database/           # Database modules
-│   └── ...
-├── exercises/              # JSON exercise files
-├── notebooks/              # Jupyter notebooks for references
-└── database/               # SQLite database files
-```
+### Backend
+- FastAPI (Python framework)
+- Uvicorn (ASGI server)
+- Python 3.9+
 
 ## Getting Started
 
 ### Prerequisites
-
-- Node.js 18+
+- Node.js 18+ and npm
 - Python 3.9+
-- OpenAI API key
+- pip (Python package manager)
 
 ### Installation
 
-1. Clone this repository:
-   ```bash
+1. Clone the repository:
+   ```
    git clone https://github.com/yourusername/python-learning-platform.git
    cd python-learning-platform
    ```
 
 2. Set up the backend:
-   ```bash
+   ```
    cd backend
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
    pip install -r requirements.txt
    ```
 
 3. Set up the frontend:
-   ```bash
+   ```
    cd ../frontend
    npm install
    ```
 
-4. Set your OpenAI API key:
-   
-   **Option 1: Using a .env file (recommended for development)**
-   
-   Create or edit the `.env` file in the backend directory:
-   ```bash
-   cd ../backend
-   echo "OPENAI_API_KEY=your-api-key-here" > .env
-   ```
-   
-   **Option 2: Using environment variables**
-   ```bash
-   export OPENAI_API_KEY="your-api-key-here"  # On Windows: set OPENAI_API_KEY=your-api-key-here
-   ```
-
 ### Running the Application
 
-Start both the frontend and backend with the provided script:
+1. Start the backend server:
+   ```
+   cd backend
+   python run.py
+   ```
+   The backend will be available at http://localhost:8003/api
 
-```bash
-./start.sh  # On Windows, you'll need to run the commands separately
+2. Start the frontend development server:
+   ```
+   cd frontend
+   npm run dev
+   ```
+   The frontend will be available at http://localhost:3000
+
+3. Or use the convenience script to start both:
+   ```
+   ./start.sh
+   ```
+
+## Project Structure
+
+```
+python-learning-platform/
+├── backend/
+│   ├── app/
+│   │   ├── routes/
+│   │   │   ├── chapters.py
+│   │   │   ├── exercises.py
+│   │   │   ├── execute.py
+│   │   │   ├── health.py
+│   │   │   └── token_tracking.py
+│   │   └── main.py
+│   ├── exercises/
+│   │   └── [chapter_folders]/
+│   │       └── [exercise_files].json
+│   └── run.py
+└── frontend/
+    ├── app/
+    │   ├── components/
+    │   ├── exercises/
+    │   ├── chapters/
+    │   ├── about/
+    │   ├── styles/
+    │   └── page.tsx
+    ├── public/
+    └── package.json
 ```
 
-Or run them individually:
+## Version Control
 
-```bash
-# Backend
-cd backend
-source venv/bin/activate
-python run_backend.py
+This project uses Git for version control. Here are some guidelines for contributing:
 
-# Frontend (in a separate terminal)
-cd frontend
-npm run dev
-```
+### Branching Strategy
 
-Then open your browser to:
-- Frontend: http://localhost:3000
-- Backend API: http://localhost:8000
+- `main` - Production-ready code
+- `develop` - Integration branch for feature development
+- `feature/[feature-name]` - For new features
+- `bugfix/[bug-name]` - For bug fixes
+- `hotfix/[hotfix-name]` - For urgent production fixes
 
-## Adding Exercises
+### Commit Messages
 
-Exercises are stored in JSON format in the `exercises/` directory. The index file (`exercises/index.json`) organizes them by chapter and notebook.
+Follow the conventional commits format:
+- `feat:` for new features
+- `fix:` for bug fixes
+- `docs:` for documentation changes
+- `style:` for formatting changes
+- `refactor:` for code refactoring
+- `test:` for adding or modifying tests
+- `chore:` for maintenance tasks
+
+Example: `feat: add dark mode to code editor`
+
+### Pull Request Process
+
+1. Create a feature branch from `develop`
+2. Make your changes and test locally
+3. Push your branch and create a pull request to `develop`
+4. After review and approval, the branch will be merged
+
+## Deployment
+
+Instructions for deploying the application to production:
+
+1. Build the frontend:
+   ```
+   cd frontend
+   npm run build
+   ```
+
+2. Deploy the backend:
+   ```
+   cd backend
+   # Your deployment commands here
+   ```
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'feat: add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
 ## License
 
-MIT License 
+This project is licensed under the MIT License - see the LICENSE file for details. 

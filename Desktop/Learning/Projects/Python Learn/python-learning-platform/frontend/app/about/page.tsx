@@ -1,68 +1,83 @@
+import React from 'react';
+import PageLayout from '../components/PageLayout';
+
 export default function AboutPage() {
   return (
-    <div className="container py-10">
-      <div className="max-w-3xl mx-auto">
-        <h1 className="text-3xl font-bold mb-6">About Python Learning Platform</h1>
+    <PageLayout>
+      <div className="max-w-4xl mx-auto py-8 px-4">
+        <h1 className="text-3xl font-bold text-python-blue mb-6">About Python Learning Platform</h1>
         
-        <div className="prose dark:prose-invert max-w-none">
-          <p>
-            The Python Learning Platform is an interactive, notebook-style learning environment
-            designed to help you master Python programming through hands-on practice and
-            AI-assisted feedback.
+        <div className="bg-white rounded-lg shadow-md p-6 mb-8">
+          <h2 className="text-2xl font-bold mb-4">Our Mission</h2>
+          <p className="mb-4">
+            The Python Learning Platform is designed to provide an interactive and engaging way to learn Python programming.
+            Our goal is to make learning Python accessible to everyone, from complete beginners to experienced developers
+            looking to expand their skills.
           </p>
-          
-          <h2>Key Features</h2>
-          
-          <ul>
-            <li>
-              <strong>Interactive Code Execution:</strong> Write and run Python code directly
-              in your browser with a notebook-like interface.
-            </li>
-            <li>
-              <strong>Structured Learning Path:</strong> Follow a carefully organized curriculum
-              with progressive chapters and exercises.
-            </li>
-            <li>
-              <strong>AI-Powered Feedback:</strong> Get detailed, personalized feedback on your
-              code using advanced AI models.
-            </li>
-            <li>
-              <strong>Reference Material:</strong> Access helpful notes and explanations for each
-              topic as you learn.
-            </li>
-            <li>
-              <strong>Dark Mode Support:</strong> Choose between light and dark themes for
-              comfortable coding in any environment.
-            </li>
-          </ul>
-          
-          <h2>Technical Stack</h2>
-          
           <p>
-            This platform is built using modern web technologies:
-          </p>
-          
-          <ul>
-            <li><strong>Frontend:</strong> Next.js, React, TailwindCSS, ShadcnUI</li>
-            <li><strong>Backend:</strong> FastAPI, Python</li>
-            <li><strong>AI Integration:</strong> OpenAI API (GPT models)</li>
-            <li><strong>Data Storage:</strong> SQLite (for token usage and feedback storage)</li>
-          </ul>
-          
-          <h2>About the Project</h2>
-          
-          <p>
-            This platform was developed as an educational tool to make Python learning more
-            interactive and feedback-driven. The aim is to provide a more engaging learning
-            experience compared to traditional static tutorials or courses.
-          </p>
-          
-          <p>
-            All code execution happens in a sandboxed environment, and the AI provides
-            personalized feedback to help you improve your coding skills.
+            We believe in learning by doing, which is why our platform focuses on interactive exercises that allow you to
+            write and execute code directly in your browser, receiving immediate feedback on your solutions.
           </p>
         </div>
+        
+        <div className="bg-white rounded-lg shadow-md p-6 mb-8">
+          <h2 className="text-2xl font-bold mb-4">How It Works</h2>
+          <div className="grid md:grid-cols-3 gap-6">
+            <div className="text-center">
+              <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                <span className="text-2xl font-bold text-python-blue">1</span>
+              </div>
+              <h3 className="font-bold mb-2">Browse Chapters</h3>
+              <p className="text-gray-600">
+                Explore our structured curriculum organized by chapters and topics.
+              </p>
+            </div>
+            
+            <div className="text-center">
+              <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                <span className="text-2xl font-bold text-python-blue">2</span>
+              </div>
+              <h3 className="font-bold mb-2">Complete Exercises</h3>
+              <p className="text-gray-600">
+                Work through interactive exercises with real-time code execution.
+              </p>
+            </div>
+            
+            <div className="text-center">
+              <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                <span className="text-2xl font-bold text-python-blue">3</span>
+              </div>
+              <h3 className="font-bold mb-2">Track Progress</h3>
+              <p className="text-gray-600">
+                Monitor your learning journey and build your Python skills step by step.
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <div className="bg-white rounded-lg shadow-md p-6">
+          <h2 className="text-2xl font-bold mb-4">Technologies Used</h2>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div>
+              <h3 className="font-bold mb-2">Frontend</h3>
+              <ul className="list-disc pl-5 space-y-1">
+                <li>Next.js (React framework)</li>
+                <li>TypeScript</li>
+                <li>Tailwind CSS</li>
+              </ul>
+            </div>
+            
+            <div>
+              <h3 className="font-bold mb-2">Backend</h3>
+              <ul className="list-disc pl-5 space-y-1">
+                <li>FastAPI (Python framework)</li>
+                <li>Uvicorn (ASGI server)</li>
+                <li>Python 3.9+</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  )
+    </PageLayout>
+  );
 } 

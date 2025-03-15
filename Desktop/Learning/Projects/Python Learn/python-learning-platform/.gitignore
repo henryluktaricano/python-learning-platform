@@ -1,10 +1,3 @@
-# Environment variables
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
 # Python
 __pycache__/
 *.py[cod]
@@ -18,7 +11,6 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
 lib64/
 parts/
 sdist/
@@ -26,13 +18,52 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
+.env
 venv/
-.venv/
+ENV/
 
-# Database
+# Node.js / Next.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.next/
+out/
+.cache/
+.vercel
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Database files
 *.db
-*.sqlite
 *.sqlite3
+*.sqlite
+*.sql
+*.db-shm
+*.db-wal
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-workspace
+*.sublime-project
 
 # Logs
 logs/
@@ -41,27 +72,21 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Next.js
-.next/
-out/
-.vercel
-.turbo
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
 
-# Node
-node_modules/
-.pnp
-.pnp.js
-
-# Coverage
+# Coverage directory
 coverage/
 .nyc_output
-htmlcov/
-.coverage
-.coverage.*
 
-# Editors
-.idea/
-.vscode/
-*.swp
-*.swo
-.DS_Store 
+# Misc
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Project specific ignores
+monitor/ 

@@ -11,6 +11,7 @@ import { EditorView, KeyBinding } from '@codemirror/view'
 import { keymap } from '@codemirror/view'
 import { Extension } from '@codemirror/state'
 import { autocompletion } from '@codemirror/autocomplete'
+import { createPortal } from 'react-dom'
 
 // Import themes
 import { dracula } from '@uiw/codemirror-theme-dracula'
@@ -21,13 +22,6 @@ import { xcodeLight } from '@uiw/codemirror-theme-xcode'
 import { nord } from '@uiw/codemirror-theme-nord'
 
 import { Button } from "@/components/ui/button"
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
 
 // Theme options
 const themes = {
@@ -78,6 +72,11 @@ export function CodeEditor({
   const { theme } = useTheme()
   const systemTheme = theme === 'dark' ? 'dracula' : 'github-light'
   
+  // Process the incoming value to remove placeholder comments
+  const processedValue = value 
+    ? value.replace(/^#.*Your code here.*$/m, "").replace(/^#.*[Ww]rite.*code.*$/m, "")
+    : "";
+  
   // Initialize from localStorage or props or system theme
   const [internalEditorTheme, setInternalEditorTheme] = useState<string>(() => {
     const storedTheme = loadStoredTheme()
@@ -93,7 +92,10 @@ export function CodeEditor({
     return storedSetting !== null ? storedSetting : true
   })
   const [editorView, setEditorView] = useState<EditorView | null>(null)
+  const [showThemeDropdown, setShowThemeDropdown] = useState<boolean>(false)
   const editorRef = useRef<HTMLDivElement>(null)
+  const themeButtonRef = useRef<HTMLButtonElement>(null)
+  const [dropdownPosition, setDropdownPosition] = useState<{ top: number; left: number }>({ top: 0, left: 0 })
 
   // Update state when external theme changes
   useEffect(() => {
@@ -115,6 +117,33 @@ export function CodeEditor({
       localStorage.setItem(RECOMMENDATIONS_STORAGE_KEY, JSON.stringify(recommendationsEnabled))
     }
   }, [recommendationsEnabled])
+
+  // Calculate dropdown position when it's shown
+  useEffect(() => {
+    if (showThemeDropdown && themeButtonRef.current) {
+      const rect = themeButtonRef.current.getBoundingClientRect();
+      // Position the dropdown above the button
+      setDropdownPosition({
+        top: rect.top - 180, // position above the button with space for the dropdown content
+        left: rect.left - 140 + rect.width, // align right edge of dropdown with right edge of button
+      });
+    }
+  }, [showThemeDropdown]);
+
+  // Add click outside listener to close dropdown
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (showThemeDropdown && 
+          themeButtonRef.current && 
+          !themeButtonRef.current.contains(event.target as Node) &&
+          !(event.target as Element).closest('.theme-dropdown')) {
+        setShowThemeDropdown(false);
+      }
+    }
+    
+    document.addEventListener('mousedown', handleClickOutside)
+    return () => document.removeEventListener('mousedown', handleClickOutside)
+  }, [showThemeDropdown])
 
   // Create a custom keymap for Shift+Enter with prevention of default behavior
   const createShiftEnterKeymap = useCallback(() => {
@@ -150,11 +179,16 @@ export function CodeEditor({
       if (e.key === 'Escape' && showSearch && editorRef.current?.contains(e.target as Node)) {
         setShowSearch(false)
       }
+      
+      // Close dropdown with Escape
+      if (e.key === 'Escape' && showThemeDropdown) {
+        setShowThemeDropdown(false)
+      }
     }
     
     window.addEventListener('keydown', handleGlobalKeyDown, true)
     return () => window.removeEventListener('keydown', handleGlobalKeyDown, true)
-  }, [onExecute, showSearch])
+  }, [onExecute, showSearch, showThemeDropdown])
 
   // Determine which extensions to use
   const getExtensions = useCallback(() => {
@@ -200,6 +234,11 @@ export function CodeEditor({
     setRecommendationsEnabled(prev => !prev)
   }, [])
 
+  // Toggle theme dropdown
+  const toggleThemeDropdown = useCallback(() => {
+    setShowThemeDropdown(prev => !prev)
+  }, [])
+
   // Handle theme changes
   const handleThemeChange = useCallback((newTheme: string) => {
     if (onThemeChange) {
@@ -207,7 +246,49 @@ export function CodeEditor({
     } else {
       setInternalEditorTheme(newTheme)
     }
+    setShowThemeDropdown(false)
   }, [onThemeChange])
+
+  // Theme dropdown portal component
+  const ThemeDropdownPortal = () => {
+    if (!showThemeDropdown || typeof document === 'undefined') return null;
+    
+    return createPortal(
+      <div 
+        className="theme-dropdown fixed shadow-lg rounded-md border p-1 z-[9999]" 
+        style={{ 
+          top: `${dropdownPosition.top}px`, 
+          left: `${dropdownPosition.left}px`,
+          width: '160px',
+          backgroundColor: '#f0f0f0',
+          color: '#333',
+          boxShadow: '0 4px 12px rgba(0, 0, 0, 0.15)'
+        }}
+      >
+        {Object.entries(themes).map(([id, _]) => (
+          <div 
+            key={id}
+            className="rounded-sm px-2 py-1.5 text-sm cursor-pointer"
+            style={{
+              backgroundColor: 'transparent',
+              color: '#333',
+            }}
+            onMouseOver={(e) => {e.currentTarget.style.backgroundColor = '#e0e0e0'}}
+            onMouseOut={(e) => {e.currentTarget.style.backgroundColor = 'transparent'}}
+            onClick={() => handleThemeChange(id)}
+          >
+            {id === 'dracula' ? 'Dracula' : 
+             id === 'material-dark' ? 'Material Dark' : 
+             id === 'sublime' ? 'Sublime' : 
+             id === 'github-light' ? 'GitHub Light' : 
+             id === 'xcode-light' ? 'Xcode Light' : 
+             id === 'nord' ? 'Nord' : id}
+          </div>
+        ))}
+      </div>,
+      document.body
+    );
+  };
 
   return (
     <div 
@@ -217,7 +298,7 @@ export function CodeEditor({
       onKeyDown={handleKeyDown}
     >
       <CodeMirror
-        value={value}
+        value={processedValue}
         onChange={handleChange}
         height={height}
         theme={themes[currentEditorTheme as keyof typeof themes]}
@@ -244,97 +325,41 @@ export function CodeEditor({
           completionKeymap: recommendationsEnabled, // Also control the keymaps
           lintKeymap: true,
         }}
-        placeholder="# Write your Python code here"
+        placeholder=""
         onKeyDown={handleKeyDown}
         onCreateEditor={handleEditorCreation}
       />
       
       <div className="absolute top-2 right-2 flex gap-2">
-        <TooltipProvider delayDuration={300}>
-          <Tooltip>
-            <TooltipTrigger asChild>
-              <Button 
-                variant="ghost" 
-                size="icon" 
-                className={cn(
-                  "h-6 w-6 rounded-full bg-background text-muted-foreground hover:bg-muted hover:text-foreground",
-                  recommendationsEnabled && "text-amber-500 hover:text-amber-600"
-                )}
-                onClick={toggleRecommendations}
-              >
-                <Lightbulb className="h-3.5 w-3.5" />
-              </Button>
-            </TooltipTrigger>
-            <TooltipContent side="bottom">
-              {recommendationsEnabled ? 'Disable recommendations' : 'Enable recommendations'}
-            </TooltipContent>
-          </Tooltip>
-        </TooltipProvider>
+        {/* Recommendation toggle button */}
+        <Button 
+          variant="ghost" 
+          size="icon" 
+          className={cn(
+            "h-6 w-6 rounded-full bg-background text-muted-foreground hover:bg-muted hover:text-foreground",
+            recommendationsEnabled && "text-amber-500 hover:text-amber-600"
+          )}
+          onClick={toggleRecommendations}
+          title={recommendationsEnabled ? 'Disable recommendations' : 'Enable recommendations'}
+        >
+          <Lightbulb className="h-3.5 w-3.5" />
+        </Button>
         
-        <TooltipProvider delayDuration={300}>
-          <Tooltip>
-            <TooltipTrigger asChild>
-              <DropdownMenu>
-                <DropdownMenuTrigger asChild>
-                  <Button 
-                    variant="ghost" 
-                    size="icon" 
-                    className="h-6 w-6 rounded-full bg-background text-muted-foreground hover:bg-muted hover:text-foreground" 
-                  >
-                    <ChevronDown className="h-3.5 w-3.5" />
-                  </Button>
-                </DropdownMenuTrigger>
-                <DropdownMenuContent 
-                  align="end" 
-                  className="w-40 rounded-md border bg-popover/95 p-1 text-popover-foreground shadow-md backdrop-blur-sm"
-                  side="top"
-                  sideOffset={5}
-                >
-                  <DropdownMenuItem 
-                    onClick={() => handleThemeChange('dracula')}
-                    className="rounded-sm hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
-                  >
-                    Dracula
-                  </DropdownMenuItem>
-                  <DropdownMenuItem 
-                    onClick={() => handleThemeChange('material-dark')}
-                    className="rounded-sm hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
-                  >
-                    Material Dark
-                  </DropdownMenuItem>
-                  <DropdownMenuItem 
-                    onClick={() => handleThemeChange('sublime')}
-                    className="rounded-sm hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
-                  >
-                    Sublime
-                  </DropdownMenuItem>
-                  <DropdownMenuItem 
-                    onClick={() => handleThemeChange('github-light')}
-                    className="rounded-sm hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
-                  >
-                    GitHub Light
-                  </DropdownMenuItem>
-                  <DropdownMenuItem 
-                    onClick={() => handleThemeChange('xcode-light')}
-                    className="rounded-sm hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
-                  >
-                    Xcode Light
-                  </DropdownMenuItem>
-                  <DropdownMenuItem 
-                    onClick={() => handleThemeChange('nord')}
-                    className="rounded-sm hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
-                  >
-                    Nord
-                  </DropdownMenuItem>
-                </DropdownMenuContent>
-              </DropdownMenu>
-            </TooltipTrigger>
-            <TooltipContent side="bottom">
-              Change theme
-            </TooltipContent>
-          </Tooltip>
-        </TooltipProvider>
+        {/* Theme dropdown trigger */}
+        <Button 
+          ref={themeButtonRef}
+          variant="ghost" 
+          size="icon" 
+          className="h-6 w-6 rounded-full bg-background text-muted-foreground hover:bg-muted hover:text-foreground"
+          onClick={toggleThemeDropdown}
+          title="Change theme"
+        >
+          <ChevronDown className="h-3.5 w-3.5" />
+        </Button>
       </div>
+      
+      {/* Render the theme dropdown through a portal */}
+      <ThemeDropdownPortal />
     </div>
   )
-}
+} 
