@@ -40,7 +40,7 @@ export default function CodeEditor({
     setApiError(null);
 
     try {
-      const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8003/api';
+      const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000/api';
       console.log(`Calling API at ${API_URL}/execute-code`);
 
       const response = await fetch(`${API_URL}/execute-code`, {
@@ -172,7 +172,7 @@ export default function CodeEditor({
             <h3 className="font-bold">API Connection Error</h3>
           </div>
           <p className="text-sm">{apiError}</p>
-          <p className="text-sm mt-2">Make sure the backend server is running on port 8003.</p>
+          <p className="text-sm mt-2">Make sure the backend server is running on port 8000.</p>
         </div>
       )}
 

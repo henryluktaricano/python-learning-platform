@@ -21,7 +21,7 @@ const loadStoredTheme = (): string | null => {
 };
 
 // API URL configuration
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8003/api';
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000/api';
 const EXECUTE_ENDPOINT = `${API_URL}/execute-code`;
 
 // Output theme styles mapping to match editor themes
@@ -73,7 +73,7 @@ interface PageProps {
 
 // Fetch a specific exercise by ID
 async function getExercise(exerciseId: string) {
-  const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8003/api';
+  const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000/api';
   
   try {
     const response = await fetch(`${API_URL}/exercises/exercise/${exerciseId}`, { 
@@ -90,7 +90,7 @@ async function getExercise(exerciseId: string) {
 
 // Fetch all exercises for a topic to enable navigation between exercises
 async function getExercisesForTopic(topicId: string) {
-  const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8003/api';
+  const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000/api';
   
   try {
     const response = await fetch(`${API_URL}/exercises/topics/${topicId}`, { 

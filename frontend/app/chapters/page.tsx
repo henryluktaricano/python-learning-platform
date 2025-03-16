@@ -20,7 +20,7 @@ interface Chapter {
 
 // Async function to fetch chapters data
 async function getChapters() {
-  const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8003/api';
+  const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000/api';
   
   try {
     const response = await fetch(`${API_URL}/chapters`, { 

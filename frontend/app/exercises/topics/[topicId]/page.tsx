@@ -10,7 +10,7 @@ interface PageProps {
 
 // Fetch exercises for a specific topic
 async function getExercises(topicId: string) {
-  const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8003/api';
+  const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000/api';
   
   try {
     const response = await fetch(`${API_URL}/exercises/topics/${topicId}`, { 
@@ -30,7 +30,7 @@ async function getExercises(topicId: string) {
 
 // Fetch topic details
 async function getTopic(topicId: string) {
-  const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8003/api';
+  const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000/api';
   
   try {
     const response = await fetch(`${API_URL}/chapters/topic/${topicId}`, { 

@@ -15,7 +15,7 @@ sys.path.insert(0, current_dir)
 load_dotenv()
 
 # Get the port from environment variables or use default
-port = int(os.getenv("PORT", "8003"))
+port = int(os.getenv("PORT", "8000"))
 
 if __name__ == "__main__":
     print(f"Starting Python Learning Platform Backend on port {port}")

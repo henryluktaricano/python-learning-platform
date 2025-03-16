@@ -2,7 +2,7 @@
 (function() {
     // Configuration
     const HEARTBEAT_INTERVAL = 30000; // 30 seconds
-    const API_URL = 'http://localhost:8003/api';
+    const API_URL = 'http://localhost:8000/api';
     
     // Send heartbeat to server
     function sendHeartbeat() {
