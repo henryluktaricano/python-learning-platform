@@ -1,11 +1,19 @@
 import os
 import json
 from typing import Dict, Any, Optional
-from openai import AsyncOpenAI
-from ..database.token_db import save_token_usage
 
-# Initialize OpenAI client
-client = AsyncOpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+# Try to import OpenAI with error handling
+try:
+    from openai import AsyncOpenAI
+    # Initialize OpenAI client
+    client = AsyncOpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+    OPENAI_AVAILABLE = True
+except ImportError:
+    print("WARNING: OpenAI package not available. AI-assisted features will not work.")
+    OPENAI_AVAILABLE = False
+    client = None
+
+from ..database.token_db import save_token_usage
 
 async def get_code_evaluation(
     code: str,
@@ -18,16 +26,22 @@ async def get_code_evaluation(
     Submit code to OpenAI for evaluation and feedback.
     
     Args:
-        code: The user's Python code to evaluate
-        exercise_id: The identifier for the exercise
-        expected_output: The expected output of the code, if applicable
-        question: The exercise question or prompt
+        code: The user's submitted code
+        exercise_id: Identifier for the exercise
+        expected_output: Expected output of the code (if applicable)
+        question: The exercise question/prompt
         metadata: Additional metadata about the exercise
         
     Returns:
-        Dictionary containing feedback, correctness assessment, 
-        alternative solutions, and mistake explanations
+        Dictionary containing feedback and evaluation results
     """
+    if not OPENAI_AVAILABLE:
+        return {
+            "correct": False,
+            "feedback": "AI evaluation is not available. Please check your code manually.",
+            "error": "OpenAI package not installed or configured properly."
+        }
+        
     try:
         # Create system prompt for code evaluation
         system_prompt = """
