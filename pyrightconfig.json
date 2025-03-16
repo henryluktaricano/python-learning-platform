@@ -1,0 +1,15 @@
+{
+  "include": [
+    "app",
+    "backend"
+  ],
+  "extraPaths": [
+    ".",
+    "./venv/lib/python3.12/site-packages",
+    "./stubs"
+  ],
+  "typeCheckingMode": "basic",
+  "useLibraryCodeForTypes": true,
+  "reportMissingImports": "warning",
+  "stubPath": "./stubs"
+} 
