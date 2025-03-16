@@ -2,7 +2,9 @@
 (function() {
     // Configuration
     const HEARTBEAT_INTERVAL = 30000; // 30 seconds
-    const API_URL = 'http://localhost:8000/api';
+    
+    // Try to get API URL from window.ENV if it exists (set by Next.js)
+    const API_URL = (window.ENV && window.ENV.NEXT_PUBLIC_API_URL) || 'http://localhost:8000/api';
     
     // Send heartbeat to server
     function sendHeartbeat() {
