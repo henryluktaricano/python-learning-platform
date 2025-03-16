@@ -18,27 +18,6 @@ interface Chapter {
   totalCount: number;
 }
 
-// Async function to fetch chapters data
-async function getChapters() {
-  const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000/api';
-  
-  try {
-    const response = await fetch(`${API_URL}/chapters`, { 
-      next: { revalidate: 3600 } 
-    });
-    
-    if (!response.ok) throw new Error('Failed to fetch chapters');
-    
-    const data = await response.json();
-    return data;
-  } catch (error) {
-    console.error('Error fetching chapters:', error);
-    
-    // Return mock data to ensure the UI has something to display
-    return mockChapters;
-  }
-}
-
 // Mock chapter data for development/fallback
 const mockChapters: Chapter[] = [
   {
@@ -110,9 +89,8 @@ const mockChapters: Chapter[] = [
 ];
 
 export default async function ChaptersPage() {
-  // Fetch chapters data
-  const chaptersData = await getChapters();
-  const chapters = chaptersData || [];
+  // Use mock data directly for now until backend issues are fixed
+  const chapters = mockChapters;
   
   return (
     <PageLayout>
