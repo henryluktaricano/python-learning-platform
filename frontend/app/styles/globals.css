@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 240, 240, 240;
+  --primary-color: #0078ff;
+  --secondary-color: #555555;
+  --python-blue: #306998;
+  --python-yellow: #FFD43B;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+}
+
+@layer base {
+  h1 {
+    @apply text-3xl font-bold mb-4;
+  }
+  h2 {
+    @apply text-2xl font-bold mb-3;
+  }
+  h3 {
+    @apply text-xl font-bold mb-2;
+  }
+  a {
+    @apply text-primary hover:text-primary-dark transition-colors;
+  }
+  code {
+    @apply font-mono text-sm bg-gray-100 px-1 py-0.5 rounded;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded font-medium transition-colors;
+  }
+  .btn-primary {
+    @apply bg-primary text-white hover:bg-primary-dark;
+  }
+  .btn-secondary {
+    @apply bg-secondary text-white hover:bg-secondary-dark;
+  }
+  .card {
+    @apply bg-white p-4 rounded-lg shadow;
+  }
+  .code-editor {
+    @apply font-mono text-sm bg-gray-800 text-white rounded-lg;
+  }
+}
+
+/* React CodeMirror Styles */
+.cm-theme {
+  height: 100% !important;
+}
+
+.w-tc-editor {
+  font-family: 'Menlo', 'Monaco', 'Courier New', monospace !important;
+}
+
+.w-tc-editor-text {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+/* Tabs for main editor and scratchbook */
+.editor-tabs {
+  @apply flex border-b border-gray-300;
+}
+
+.editor-tab {
+  @apply px-4 py-2 font-medium mr-2 cursor-pointer;
+}
+
+.editor-tab.active {
+  @apply border-b-2 border-python-blue text-python-blue;
+}
+
+.editor-tab:not(.active) {
+  @apply text-gray-500 hover:text-gray-700;
+}
+
+/* Exercise notes section */
+.notes-section {
+  @apply bg-white p-4 rounded-lg shadow-md my-4;
+}
+
+.code-sample {
+  @apply bg-gray-100 p-3 rounded font-mono text-sm my-3;
+} 
