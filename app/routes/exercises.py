@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 router = APIRouter()
 
 # Directory where exercise JSON files are stored
-EXERCISES_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "exercises")
+EXERCISES_DIR = "/Users/henry/Desktop/Learning/Projects/Python Learn/exercises"
 
 # Print the EXERCISES_DIR for debugging
 logger.info(f"EXERCISES_DIR is set to: {EXERCISES_DIR}")
